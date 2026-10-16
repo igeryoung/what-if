@@ -1,0 +1,30 @@
+{
+  "zh": {
+    "title": "如果一張紙能對折 42 次",
+    "summary": "0.1 毫米的紙每折一次厚度翻倍，第 42 次就比月球還遠；但現實世界紀錄只有 12 次。",
+    "youtube": {
+      "title": "一張紙對折 42 次，會比月球還遠？",
+      "description": "一張紙對折 42 次，厚度會到哪裡？\n\n每對折一次，厚度就翻倍。0.1 毫米的紙，第 23 次就有 839 公尺，比台北 101 還高；第 42 次達到 439,805 公里，超過地球到月球的距離。但現實中的世界紀錄只有 12 次。這就是指數成長。\n\n資料來源：\n• Guinness World Records：Most times to fold a piece of paper：https://www.guinnessworldrecords.com/world-records/494571-most-times-to-fold-a-piece-of-paper\n• Live Science：How many times can paper be folded：https://www.livescience.com/how-many-times-can-paper-be-folded\n地球影像：NASA\n配樂：原創（樣本 VSCO 2 CE、VCSL，CC0）\n\n#指數成長 #數學 #冷知識 #如果 #shorts",
+      "tags": [
+        "指數成長",
+        "摺紙",
+        "數學",
+        "冷知識",
+        "如果系列",
+        "月球",
+        "台北101"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "Guinness：Most times to fold a piece of paper",
+      "url": "https://www.guinnessworldrecords.com/world-records/494571-most-times-to-fold-a-piece-of-paper"
+    },
+    {
+      "label": "Live Science：How many times can paper be folded",
+      "url": "https://www.livescience.com/how-many-times-can-paper-be-folded"
+    }
+  ],
+  "notes": "厚度 = 0.1 mm × 2^n，自行計算；42 次所需紙長用 Gallivan 公式。紙柱與地月比例非實際比例。"
+}

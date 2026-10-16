@@ -1,0 +1,43 @@
+{
+  "zh": {
+    "title": "如果全世界停電 24 小時",
+    "summary": "從第一秒到第 24 小時，紅綠燈、訊號、刷卡、冰箱、自來水、醫院依序出狀況；以 2003 美加、2017 台灣 815、2025 西葡大停電為證。",
+    "youtube": {
+      "title": "如果全世界停電 24 小時，會先壞掉什麼？",
+      "description": "如果全世界同時停電 24 小時，會發生什麼事？\n\n從停電第一秒到第 24 小時：紅綠燈、訊號、刷卡與 ATM、冰箱、自來水、醫院依序出狀況。每個時間點都對照真實事件：2003 年美加大停電、2017 年台灣 815 停電、2025 年西班牙與葡萄牙大停電。發電機千萬別放室內；手電筒、行動電源、一點現金和飲用水，你家準備好了嗎？\n\n資料來源：\n• 2025 Iberian Peninsula blackout（Wikipedia）：https://en.wikipedia.org/wiki/2025_Iberian_Peninsula_blackout\n• ENTSO-E：28 April 2025 Iberian blackout：https://www.entsoe.eu/publications/blackout/28-april-2025-Iberian-blackout\n• Northeast blackout of 2003（Wikipedia）：https://en.wikipedia.org/wiki/Northeast_blackout_of_2003\n• WVU Extension：Food safety during power outages：https://extension.wvu.edu/food-health/food-safety-readiness/food-safety-power-outages\n• 中央社：815 停電：https://www.cna.com.tw/news/firstnews/202105135019.aspx\n影像：NASA Black Marble\n配樂：原創（樣本 VSCO 2 CE、VCSL，CC0）\n\n#停電 #防災 #冷知識 #如果 #shorts",
+      "tags": [
+        "停電",
+        "大停電",
+        "防災",
+        "冷知識",
+        "如果系列",
+        "815停電",
+        "緊急準備",
+        "電網"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "2025 Iberian Peninsula blackout",
+      "url": "https://en.wikipedia.org/wiki/2025_Iberian_Peninsula_blackout"
+    },
+    {
+      "label": "ENTSO-E：28 April 2025 Iberian blackout",
+      "url": "https://www.entsoe.eu/publications/blackout/28-april-2025-Iberian-blackout"
+    },
+    {
+      "label": "Northeast blackout of 2003",
+      "url": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003"
+    },
+    {
+      "label": "WVU Extension：Food safety during power outages",
+      "url": "https://extension.wvu.edu/food-health/food-safety-readiness/food-safety-power-outages"
+    },
+    {
+      "label": "中央社：815 停電",
+      "url": "https://www.cna.com.tw/news/firstnews/202105135019.aspx"
+    }
+  ],
+  "notes": "各時間點為情境安排，事實取自真實事件。815 戶數各媒體略有出入（668 萬 / 592 萬）。影像：NASA Black Marble。"
+}

@@ -1,0 +1,85 @@
+{
+  "zh": {
+    "title": "如果雨滴跟棒球一樣大",
+    "summary": "如果雨滴有棒球那麼大（7.4 公分），每顆約 210 克、比棒球還重，落地時速估計約 150 公里，跟職棒快速球差不多；一場中雨，一座足球場每秒挨 47 顆。但這不可能：雨滴大到約 5 毫米，就會被空氣吹成降落傘然後碎掉，棒球大的水滴落下不到 1 公尺就會碎成一場小雨。天上真的會掉棒球大的東西，那是冰雹。",
+    "youtube": {
+      "title": "如果雨滴跟棒球一樣大，會把人砸昏嗎？",
+      "description": "如果雨滴跟棒球一樣大，每一顆都會像職棒快速球一樣砸下來，前提是它撐得到地面。\n\n真正的雨滴約 2 毫米，要約 5 萬顆才裝得滿一顆棒球大小（7.4 公分）的雨滴。這樣一顆水重約 210 克，比棒球（145 克）還重；如果它保持圓球落下，落地時速估計約 150 公里，跟職棒快速球差不多，而最大的真雨滴只有約 32 公里。以每小時 5 毫米的中雨計，一座足球場每秒會挨 47 顆。但這不可能：雨滴根本不是淚滴形，越大底部越扁，大到約 5 毫米就被空氣吹成降落傘，然後碎掉。棒球大的水滴落下不到 1 公尺就會碎成一場小雨；天上真正會掉的「棒球」，是冰雹。\n\n重量、落速、每秒顆數與「不到 1 公尺」為本片依上述資料估算。\n\n#雨 #棒球 #物理 #如果 #shorts",
+      "tags": [
+        "如果",
+        "雨滴",
+        "棒球",
+        "雨",
+        "冰雹",
+        "表面張力",
+        "物理",
+        "科普",
+        "終端速度",
+        "快速球"
+      ]
+    }
+  },
+  "en": {
+    "title": "What if raindrops were as big as baseballs?",
+    "summary": "A baseball-sized raindrop (7.4 cm) would weigh about 210 g, more than a baseball, and would hit the ground at an estimated 150 km/h, about as fast as a pro fastball; in moderate rain, a single football pitch would take 47 of them a second. But it can't happen: at about 5 mm, air puffs a drop into a parachute and it bursts, so a baseball-sized drop would burst into rain within 1 meter. Baseball-sized things do fall from the sky, but they're hail.",
+    "youtube": {
+      "title": "What if raindrops were as big as baseballs? Could one knock you out?",
+      "description": "If raindrops were as big as baseballs, every one would come down like a pro fastball, if it made it to the ground.\n\nA real raindrop is about 2 mm, so it takes about 50,000 of them to fill one baseball-sized (7.4 cm) drop. That much water weighs about 210 g, more than a baseball (145 g); if it fell as a round ball, it would hit the ground at an estimated 150 km/h, about as fast as a pro fastball, while the biggest real raindrops fall at about 32 km/h. In moderate rain of 5 mm per hour, a single football pitch would take 47 of them every second. But it can't happen: raindrops aren't even teardrop-shaped. They flatten as they grow, and at about 5 mm the air puffs them into a parachute and they burst. A baseball-sized drop would burst into rain within 1 meter; the only baseballs the sky drops are hail.\n\nThe weight, impact speed, drops per second and the 1-meter figure are our own estimates from these sources.\n\n#rain #baseball #physics #whatif #shorts",
+      "tags": [
+        "what if",
+        "raindrops",
+        "baseball",
+        "rain",
+        "hail",
+        "surface tension",
+        "physics",
+        "science explained",
+        "terminal velocity",
+        "fastball"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "NASA GPM, Anatomy of a Raindrop (under 1 mm round; 2–3 mm affected by air, shaped like the top of a hamburger bun; over 4.5 mm distorted into a parachute shape, then break up)",
+      "url": "https://gpm.nasa.gov/science/anatomy-of-a-raindrop"
+    },
+    {
+      "label": "USGS Water Science School, Raindrop shape determined by drop size and air resistance (spherical → hamburger bun → parachute → breaks up)",
+      "url": "https://www.usgs.gov/media/images/raindrop-shape-determined-drop-size-and-air-resistance"
+    },
+    {
+      "label": "AMS Glossary of Meteorology, Raindrop (typical diameter 1–2 mm; largest observed 5–8 mm)",
+      "url": "https://glossary.ametsoc.org/wiki/Raindrop"
+    },
+    {
+      "label": "American Museum of Natural History, Scales of the Universe: Raindrop (average raindrop 2 mm)",
+      "url": "https://www.amnh.org/exhibitions/permanent/scales-of-the-universe/planets/raindrop"
+    },
+    {
+      "label": "Wikipedia, Rain (5 mm drops impact at ~9 m/s; not teardrop-shaped; moderate rain 2.5–7.6 mm/h)",
+      "url": "https://en.wikipedia.org/wiki/Rain"
+    },
+    {
+      "label": "Wikipedia, Baseball (ball) (diameter 73–75 mm; weight 142–149 g)",
+      "url": "https://en.wikipedia.org/wiki/Baseball_(ball)"
+    },
+    {
+      "label": "AP via NY1, 29 Sep 2026: MLB four-seam fastballs averaged 94.8 mph in 2026 (Statcast)",
+      "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/09/29/the-fast-get-faster-mlb-pitchers-again-set-fastball-velocity-record-by-averaging-948-mph"
+    },
+    {
+      "label": "NWS Lincoln IL, hail size chart (2.75 in = baseball)",
+      "url": "https://www.weather.gov/ilx/largehailcentralil"
+    },
+    {
+      "label": "NSSL Severe Weather 101: Hail (2–4 in hail falls at about 44–72 mph)",
+      "url": "https://www.nssl.noaa.gov/education/svrwx101/hail/"
+    },
+    {
+      "label": "Wikipedia, Football pitch (FIFA recommends 105 m × 68 m)",
+      "url": "https://en.wikipedia.org/wiki/Football_pitch"
+    }
+  ],
+  "notes": "【計算】\n1) 棒球大小：規格直徑 73–75 mm，片中取 7.4 公分（雨滴與棒球同為 7.4 公分）。\n2) 5 萬顆：體積比 = (74 ÷ 2)³ = 37³ = 50,653 → 「約 5 萬顆」（以一般雨滴 2 毫米計，AMNH 平均 2 mm、AMS 典型 1–2 mm）。\n3) 210 克：水球體積 = 4/3 × π × 3.7³ = 212.2 cm³ → 212 g ≈ 「約 210 克」；棒球 142–149 g，片中取 145 克。\n4) 時速約 150 公里（估算）：假設水滴一直保持光滑圓球。終端速度 v = √(2mg ÷ (ρ空氣 × Cd × A))，m = 0.212 kg，A = π × 0.037² = 4.30×10⁻³ m²，ρ = 1.2 kg/m³，Cd = 0.47（球體，Re ≈ 2×10⁵）→ v = √(4.163 ÷ 0.002426) ≈ 41.4 m/s ≈ 149 km/h；Cd 取 0.4–0.5 則為 145–162 km/h。MLB 2026 四縫線快速球平均 94.8 mph = 152.6 km/h → 「跟職棒快速球差不多」。弱點：真實的棒球大冰雹形狀不規則、密度較低，NSSL 實測 2–4 吋冰雹只有約 44–72 mph（71–116 km/h），所以片中標「估算」。\n5) 最大的真雨滴約 32 公里/時：Wikipedia（雨）5 mm 雨滴約 9 m/s × 3.6 = 32.4 km/h。\n6) 每秒 47 顆：每小時 5 mm（中雨範圍 2.5–7.6 mm/h 內）× 足球場 105 × 68 = 7,140 m² → 35.7 m³/h = 3.57×10⁷ cm³/h ÷ 212.2 cm³ = 168,237 顆/小時 ÷ 3600 = 46.7 → 47 顆/秒。畫面上的水花也以每秒 47 個的速率出現（大小為示意，非比例）。\n7) 約 5 毫米就碎：NASA GPM 寫超過 4.5 mm 會變成降落傘形然後碎裂；片中說「約 5 毫米」。弱點：USGS 頁面寫的是半徑 4–4.5 mm 開始變形；AMS 說雷雨中觀測到的最大雨滴可達 5–8 mm，2004 年曾在巴西與馬紹爾群島量到接近 1 公分的雨滴，所以 5 毫米是「通常的上限」而非絕對值。2–3 毫米像漢堡麵包、不到 1 毫米是圓的，都出自 NASA GPM。\n8) 落下不到 1 公尺就碎（估算）：袋狀破裂的臨界韋伯數 We = ρ空氣 v² d ÷ σ 約 6–12（以 5 mm、9 m/s 的雨滴驗算 We = 1.2 × 81 × 0.005 ÷ 0.072 ≈ 6.8，正好對上觀測到的上限）。7.4 cm 水滴的臨界速度 v = √(We × σ ÷ (ρ × d)) = √(6–12 × 0.072 ÷ (1.2 × 0.074)) ≈ 2.2–3.1 m/s；從靜止自由落下到這個速度只需 h = v² ÷ 2g ≈ 0.25–0.5 m，所以「不到 1 公尺」是保守說法。\n9) 冰雹約 7 公分：美國國家氣象局對照表 2.75 吋 = 棒球大小 = 6.99 cm。\n【已知弱點】開場與結尾的淚滴形是「雨滴」的圖示（片中第二段就說明真雨滴不是淚滴形）；放大的形狀變化是示意圖。前四段是假設情境（假設水滴不會碎），轉折後才說明它不可能存在。\n【製作】120 BPM、C 大調，每個轉場都在小節線上；足球場那段的雨聲 tick 也是每秒 47 個，跟畫面的水花同步；雨滴在 48 s 的小節線上碎掉；結尾 60 s 雨滴碎開時落 C 大調終止和弦，最後一小節是 G7 上行琶音，接回第 1 小節的 C。"
+}

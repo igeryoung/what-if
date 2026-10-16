@@ -1,0 +1,38 @@
+{
+ "zh": [
+  {"at": 0.3, "text": "如果狗用狗年齡過生日？"},
+  {"at": 2.8, "text": "一歲生日，要插幾根蠟燭？"},
+  {"at": 6.2, "text": "常聽到的說法：狗一歲，等於人七歲。"},
+  {"at": 12.2, "text": "但一歲的狗，多半已經能當爸媽，"},
+  {"at": 16.0, "text": "七歲的小孩呢？還早得很。"},
+  {"at": 20.2, "text": "2020 年一項研究，比對了狗和人的 DNA：", "say": "2020 年一項研究，比對了狗和人的 DNA。"},
+  {"at": 24.3, "text": "DNA 會隨年齡留下記號。"},
+  {"at": 28.2, "text": "結果，一歲的狗，大約等於三十一歲的人。"},
+  {"at": 36.2, "text": "第一年狂奔，之後慢慢走：", "say": "第一年狂奔，之後慢慢走。"},
+  {"at": 39.7, "text": "兩歲四十二，七歲六十二，十二歲七十一。"},
+  {"at": 44.2, "text": "反轉：老了以後，乘以七反而算太老。"},
+  {"at": 47.9, "text": "乘以七算出八十四，DNA 只有七十一。"},
+  {"at": 52.4, "text": "哺乳動物通常越大越長壽，"},
+  {"at": 55.7, "text": "狗卻相反：越大隻，老得越快。"},
+  {"at": 61.9, "text": "一歲生日：三十一根蠟燭。"},
+  {"at": 64.8, "text": "所以，蛋糕記得買大一點。", "closer": true}
+ ],
+ "en": [
+  {"at": 0.3, "text": "What if dogs had birthdays in dog years?"},
+  {"at": 2.8, "text": "How many candles at age 1?"},
+  {"at": 6.2, "text": "The usual rule: 1 dog year equals 7 human years."},
+  {"at": 12.2, "text": "But most 1-year-old dogs can already have puppies."},
+  {"at": 16.0, "text": "A 7-year-old kid? Not even close."},
+  {"at": 20.2, "text": "A 2020 study compared dog and human DNA."},
+  {"at": 23.6, "text": "DNA picks up marks with age."},
+  {"at": 28.2, "text": "The result: a 1-year-old dog is about 31 in human years."},
+  {"at": 36.2, "text": "And then? Year one is a sprint, then it slows down."},
+  {"at": 39.7, "text": "42 at 2, 62 at 7, 71 at 12.", "rate": "+8%"},
+  {"at": 44.2, "text": "The twist: later on, times 7 makes dogs too old."},
+  {"at": 48.0, "text": "Times 7 says 84. The DNA says 71."},
+  {"at": 52.4, "text": "In mammals, bigger usually means longer life."},
+  {"at": 55.7, "text": "Dogs flip it: big breeds age faster."},
+  {"at": 61.9, "text": "Age 1: 31 candles."},
+  {"at": 64.8, "text": "Better get a bigger cake.", "closer": true}
+ ]
+}

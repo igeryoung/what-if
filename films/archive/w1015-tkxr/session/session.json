@@ -1,0 +1,28 @@
+{
+ "id": "w1015-tkxr",
+ "topic": "如果蟑螂跟人一樣大（看點：照比例換算，時速兩百多公里）",
+ "createdAt": 1792072943738,
+ "status": "done",
+ "revisions": [
+  {
+   "t": 1792073182302,
+   "feedback": "上一次製作在查證階段被中斷了（Studio 重啟改成平行製作），還沒有產出任何檔案。請接著把整支片做完：查證、畫面、配樂、兩種語言 render、檢查畫格、寫 meta.json。"
+  },
+  {
+   "t": 1792076408364,
+   "feedback": "請加上縮圖：照 docs/BRIEF.md 的 Thumbnail 段落寫 films/w1015-tkxr/thumb.tsx，再跑 node tools/thumb.mjs w1015-tkxr，看過 out/thumb_small.jpg，確認縮成 feed 大小時每個字都讀得清楚、而且沒有劇透答案。影片本身不用改，也不要重新 render。"
+  }
+ ],
+ "updatedAt": 1792076485607,
+ "startedAt": 1792076408368,
+ "error": null,
+ "claudeSession": "c07454b2-fbc1-4d4c-aa6a-99be32b59539",
+ "finishedAt": 1792076485607,
+ "cost": 6.4466941,
+ "tokens": 9024076,
+ "turns": 89,
+ "result": "縮圖做好了：`films/w1015-tkxr/out/thumb_zh.jpg`（141 KB）和 `thumb_en.jpg`（150 KB）。縮到 feed 大小（`thumb_small.jpg`）看過，每個字都讀得清楚，也沒有劇透。\n\n- **畫面**：用開場的元件，牆上一個人旁邊站著一隻跟他一樣高的蟑螂，配色和影片相同。\n- **文字**：中文標題「如果蟑螂／跟人一樣大？」，下面一行琥珀色「你跑得掉嗎？」；英文是「What if a / roach were / your size?」加「Could you outrun it?」。\n- **沒有劇透**：時速 230、百米 1.57 秒、「你跑不掉」這些答案都沒放上去，只問問題。\n- **版面**：標題和副標都在 y 300–900 之間，人和蟑螂的頭部也在底部 350 px 之上；只有腳和尾端伸進最下面那段，會被標題蓋到，但不影響。\n\n照你的要求，影片沒有改，也沒有重新 render。meta.json 的格式裡沒有縮圖欄位，所以沒動。",
+ "costs": {
+  "c07454b2-fbc1-4d4c-aa6a-99be32b59539": 6.4466941
+ }
+}

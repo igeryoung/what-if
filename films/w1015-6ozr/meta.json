@@ -1,0 +1,57 @@
+{
+  "zh": {
+    "title": "如果人類能像壁虎一樣爬牆",
+    "summary": "壁虎靠腳趾上每平方毫米 14,400 根細毛、分子間的凡得瓦力黏在牆上，50 克的壁虎理論上能吊起 133 公斤。但身體越大，體重長得比腳底快：人類要像壁虎一樣爬牆，40% 的皮膚（約正面的 80%）都得是黏腳墊，鞋子要穿歐碼 145 號。",
+    "youtube": {
+      "title": "如果人類能像壁虎一樣爬牆，你會變成什麼樣子？",
+      "description": "壁虎能貼在玻璃上往上跑，人類為什麼不行？\n\n壁虎腳趾上每平方毫米約有 14,400 根細毛，每根末端再分岔成數百個約 200 奈米的小刷頭，靠分子間的吸力（凡得瓦力）抓住牆面；一隻 50 克的壁虎，細毛全部黏上，理論上能吊起 133 公斤，約兩個大人。但身體放大 2 倍，體重變 8 倍、腳底只變 4 倍：比較 225 種會爬牆的動物，壁虎腳墊佔體表的比例是蟎的 200 倍。換成人類，40% 的皮膚都得是黏腳墊，等於身體正面的 80%；全長在腳上的話，鞋子要穿歐碼 145 號，一隻將近 1 公尺長。\n\n鞋長換算與 2 倍放大的比例為本片自行計算。\n\n#壁虎 #如果 #科普 #生物 #shorts",
+      "tags": [
+        "如果",
+        "壁虎",
+        "爬牆",
+        "蜘蛛人",
+        "壁虎腳",
+        "凡得瓦力",
+        "平方立方定律",
+        "生物力學",
+        "仿生學",
+        "科普"
+      ]
+    }
+  },
+  "en": {
+    "title": "What if humans could climb walls like geckos?",
+    "summary": "Geckos stick with 14,400 hairs per mm² on their toes and van der Waals forces between molecules; in theory a 50 g gecko could hold 133 kg. But weight grows faster than feet: to climb like a gecko, 40% of a human's skin (about 80% of the front) would have to be sticky pads, or shoes in EU size 145.",
+    "youtube": {
+      "title": "What if humans could climb like geckos? What would you look like?",
+      "description": "Geckos run up glass. Why can't we?\n\nA gecko's toes carry about 14,400 hairs per square millimetre, and each hair splits into hundreds of tips about 200 nm wide that grip the wall with van der Waals forces between molecules. In theory, with every hair stuck, one 50 g gecko could hold 133 kg, about two adults. But make a body twice as big and its weight goes up 8 times while its soles grow only 4 times: across 225 climbing species, geckos devote 200 times more of their body surface to pads than mites. For a human, 40% of your skin would have to be sticky pads, about 80% of your front; put it all on your feet and you'd need EU size 145 shoes, each almost 1 m long.\n\nThe shoe length and the twice-as-big ratios are our own calculations.\n\n#gecko #whatif #science #biology #shorts",
+      "tags": [
+        "what if",
+        "gecko",
+        "climb walls",
+        "Spider-Man",
+        "gecko feet",
+        "van der Waals",
+        "square-cube law",
+        "biomechanics",
+        "biomimicry",
+        "science explained"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "Labonte et al. 2016, Extreme positive allometry of animal adhesive pads and the size limits of adhesion-based climbing, PNAS 113:1297 (225 species; 200-fold increase in relative pad area from mites to geckos; a human would need ~40% of body surface covered with pads, for an 80 kg, 180 cm person; anatomical constraints may prohibit adhesion-based climbers larger than geckos)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4747726"
+    },
+    {
+      "label": "University of Cambridge press release via Newswise, 'Why Spiderman can't exist: geckos are size limit for sticking to walls' (40% of total body surface or roughly 80% of our front; shoes would need to be European size 145 / US size 114, quote by Walter Federle)",
+      "url": "https://www.newswise.com/articles/why-spiderman-can-t-exist-geckos-are-size-limit-for-sticking-to-walls"
+    },
+    {
+      "label": "Autumn & Peattie 2002, Mechanisms of adhesion in geckos, Integrative and Comparative Biology 42:1081 (14,400 setae per mm²; each seta branches into 100–1,000 spatulae ~200 nm wide; van der Waals adhesion; all 6.5 million setae of a 50 g tokay gecko could theoretically generate 1,300 N, 133 kg force, enough to support the weight of two humans; real surfaces that are rough or dusty reduce attachment)",
+      "url": "https://doi.org/10.1093/icb/42.6.1081"
+    }
+  ],
+  "notes": "【計算】\n1) 133 公斤：Autumn & Peattie 2002：650 萬根細毛 × 每根約 200 μN ≈ 1,300 N；1,300 ÷ 9.81 ≈ 132.5 → 原文寫 133 kg force，並寫「足以撐起兩個人的體重」→ 片中「≈ 兩個大人」。弱點：這是單根細毛最大值外推的理論值，片中標明「理論上」，並加註真實牆面有灰塵、凹凸（原文說粗糙或多塵的表面會大幅降低黏附比例）。\n2) 放大 2 倍：長寬高各 ×2 → 面積（腳底）×2² = 4，體積（體重）×2³ = 8。片中的立方體示意，大方塊畫成 2×2×2 = 8 格、底面 4 格。\n3) 鞋長：歐碼以「巴黎碼」計，1 碼 = ⅔ 公分 → 145 × ⅔ = 96.7 公分 ≈ 97 公分（片中「將近 1 公尺」）；42 號 × ⅔ = 28 公分。這是鞋楦長度，腳本身略短 1–2 公分。\n4) 40% 與 80%：Labonte 2016 本文寫人類（80 公斤、180 公分）需要約 40% 體表是腳墊；「約正面的 80%」與「歐碼 145 號」出自劍橋大學新聞稿中作者的說法，論文本身沒有寫。參考：Mosteller 公式 √(180×80/3600) = 2.0 m²，40% ≈ 0.8 m²（片中未顯示）。\n5) 200 倍：Labonte 2016 摘要「從蟎到壁虎，相對腳墊面積增加約 200 倍」；225 種爬牆動物同出處。\n6) 14,400 根/mm²、每根分岔 100–1,000 個（片中「數百個」）、約 200 nm：Autumn & Peattie 2002。\n【畫面示意】人形上的琥珀色填充是從腳往上，剛好蓋住剪影面積的 40%（或 80%），面積以程式取樣計算；真實的腳墊當然不會這樣分布。蟎與壁虎的長條按 1 : 200 畫（4 px 對 700 px）。\n【已知弱點】40% 是論文依 225 種動物的尺度關係外推到人類的估計，不是實測；「壁虎可能就是尺寸極限」照論文的保守措辭（may）寫成「可能」。片中沒提工程上的捷徑：Hawkes 等 2014（J. R. Soc. Interface）讓 70 公斤的人靠每手 140 cm² 的仿壁虎黏墊爬上 3.6 公尺玻璃牆，靠的是讓黏墊平均分擔重量，跟動物自己長腳墊是兩回事。\n【製作】120 BPM、A 小調，每個轉場都在小節線上並有定音鼓 + 大鼓；開場壁虎跑動對應木魚十六分音符，細毛放大時鐵琴、細毛分岔時豎琴上行，『133 公斤』與兩個大人落下各有一擊，鞋子變大用低音號，攀牆時撥弦一路往上爬，結尾 A 小調和弦落在答案上，最後一小節 E7 接回第一小節的 A 小調。"
+}

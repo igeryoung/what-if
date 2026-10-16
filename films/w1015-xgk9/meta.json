@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "title": "如果把你一輩子眨眼的時間加起來",
+    "summary": "一次眨眼，視線斷掉約 0.3 秒；一分鐘 15 次、一天 14,400 次、一年 18 天。活到 80 歲，3.7 億次眨眼加起來約 3.5 年——醒著，卻閉著眼，而大腦每次都替你把黑暗藏起來。",
+    "youtube": {
+      "title": "一輩子的眨眼加起來，你醒著閉眼了 3.5 年",
+      "description": "如果把你一輩子眨眼的時間加起來，會有多久？\n每次眨眼，視覺會中斷約 0.3 秒。成人每分鐘約眨眼 15 次，等於每分鐘有 4.5 秒的黑暗；醒著 16 小時就是 14,400 次、72 分鐘，一年約 18 天。活到 80 歲（10 歲前眨得少，不算），一共約 3.7 億次眨眼，加起來約 3.5 年。而你一次也沒發現，因為眨眼時大腦會壓低「看見」與「察覺」相關區域的活動。\n#眨眼 #冷知識 #人體 #如果 #shorts",
+      "tags": [
+        "眨眼",
+        "眨眼時間",
+        "眼睛",
+        "大腦",
+        "人體冷知識",
+        "冷知識",
+        "如果",
+        "what if",
+        "科學",
+        "視覺"
+      ]
+    }
+  },
+  "en": {
+    "title": "What if you added up every blink of your life?",
+    "summary": "Each blink cuts your vision for about 0.3 s; 15 a minute, 14,400 a day, 18 days a year. Live to 80 and 370 million blinks add up to about 3.5 years, awake with your eyes shut, and your brain hides every one.",
+    "youtube": {
+      "title": "Add up every blink of your life: 3.5 years awake with eyes shut",
+      "description": "What if you added up every blink of your life?\nEach blink blacks out your vision for about 0.3 s. Adults blink about 15 times a minute: 4.5 seconds of dark every minute. Over 16 waking hours that's 14,400 blinks, or 72 minutes, and about 18 days a year. Live to 80 (skipping ages 0–9, when kids blink far less) and it's about 370 million blinks, adding up to about 3.5 years. You never noticed, because blinking mutes the brain areas for seeing and noticing.\n#blinking #sciencefacts #humanbody #whatif #shorts",
+      "tags": [
+        "blinking",
+        "how much time do we spend blinking",
+        "eyes",
+        "brain",
+        "human body facts",
+        "science facts",
+        "what if",
+        "vision",
+        "fun facts"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "Pitigoi et al. 2024, eNeuro — blinks cause visual blackouts ~10–20 times a minute, ~300 ms each, nearly 10% of waking time",
+      "url": "https://doi.org/10.1523/ENEURO.0296-23.2024"
+    },
+    {
+      "label": "Bristow et al. 2005, Current Biology — blinking suppresses visual cortex, parietal and prefrontal awareness areas",
+      "url": "https://doi.org/10.1016/j.cub.2005.06.025"
+    },
+    {
+      "label": "Wikipedia: Blinking — ~17/min in adults; infants 1–2/min; rate rises through childhood to adult levels by adolescence",
+      "url": "https://en.wikipedia.org/wiki/Blinking"
+    }
+  ],
+  "notes": "算式：每分鐘 15 次 × 0.3 秒 = 4.5 秒（= 醒著時間的 7.5%；Pitigoi 2024 寫「每分鐘約 10–20 次、每次約 300 ms、接近清醒時間的 10%」，取 15 次是偏保守的中間值）。每天醒 16 小時：16 × 60 × 15 = 14,400 次；14,400 × 0.3 秒 = 4,320 秒 = 72 分鐘。一年：72 分 × 365 = 26,280 分 = 438 小時 = 18.25 天 ≈ 18 天。一輩子（活到 80 歲，10 歲前不算，共 70 年）：14,400 × 365 × 70 = 367,920,000 ≈ 3.7 億次（用 365.25 天為 3.68 億）；72 分 × 365.25 × 70 = 1,840,860 分 = 30,681 小時 = 1,278 天 ≈ 3.50 年。片中 0.3 秒是『眨眼造成的視覺中斷』；若只算眼皮完全遮住瞳孔的時間（UCL 說約 100–150 ms），總數約減半（約 1.75 年）；若每分鐘 20 次則約 4.7 年，所以片尾字卡寫明假設。已知弱點：眨眼頻率個人差異很大，閱讀與看螢幕時會降到每分鐘約 4–5 次（Bentivoglio 1997，經維基百科），實際數字因人而異；嬰兒每分鐘只眨 1–2 次、到青春期才達成人水準，片中以「10 歲前不算」簡化。『大腦把黑暗藏起來』是對 blink suppression 的通俗說法：Bristow 2005 以 fMRI 顯示眨眼時視覺皮質及與察覺相關的頂葉、前額葉活動下降，作者認為這可能是我們察覺不到眨眼的原因。片中時鐘 7:00–23:00 只是示意醒著 16 小時。"
+}

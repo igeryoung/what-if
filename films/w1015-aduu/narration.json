@@ -1,0 +1,41 @@
+{
+ "zh": [
+  {"at": 0.3, "text": "如果手機掉進馬里亞納海溝，要多久才會沉到底？"},
+  {"at": 5.3, "text": "旗艦手機的防水，最深只測到六公尺，"},
+  {"at": 9.1, "text": "第三秒就超過了。"},
+  {"at": 11.7, "text": "九分鐘，一千公尺：陽光完全消失，"},
+  {"at": 15.45, "text": "只剩深海生物自己發的光。"},
+  {"at": 19.6, "text": "三十五分鐘，到了鐵達尼號的深度，"},
+  {"at": 23.0, "text": "但才走了三分之一。"},
+  {"at": 25.4, "text": "就算把聖母峰整座丟進來，"},
+  {"at": 28.3, "text": "山頂離海面還有兩公里。"},
+  {"at": 33.4, "text": "到底了。"},
+  {"at": 35.2, "text": "每平方公分壓著一點一噸，像一輛小汽車。"},
+  {"at": 40.1, "text": "光是手機正面，就壓著一百二十噸，像一百多輛車。"},
+  {"at": 45.5, "text": "但它不是第一個到的。"},
+  {"at": 47.6, "text": "1998 年，無人潛艇在海溝底拍到一個塑膠袋。"},
+  {"at": 55.1, "text": "最快也要一小時四十一分，"},
+  {"at": 57.9, "text": "夠你把這支片重看九十多遍。"},
+  {"at": 61.95, "text": "手機，還是抓緊一點吧。", "closer": true}
+ ],
+ "en": [
+  {"at": 0.3, "text": "What if you dropped your phone into the Mariana Trench?"},
+  {"at": 3.5, "text": "How long until it hits bottom?"},
+  {"at": 5.5, "text": "Top phones are only water-tested to 6 meters."},
+  {"at": 8.5, "text": "Passed in just 3 seconds."},
+  {"at": 11.7, "text": "9 minutes, 1,000 meters. Sunlight is gone."},
+  {"at": 15.4, "text": "The only light now comes from living things."},
+  {"at": 19.6, "text": "35 minutes: the Titanic's depth."},
+  {"at": 22.3, "text": "Only a third of the way down."},
+  {"at": 25.4, "text": "Drop Mount Everest in here,"},
+  {"at": 28.3, "text": "and its peak is still 2 kilometers underwater."},
+  {"at": 33.4, "text": "The bottom."},
+  {"at": 35.2, "text": "Every square centimeter carries 1.1 tonnes. About a small car."},
+  {"at": 40.1, "text": "On the phone's front alone: 120 tonnes. Over 100 cars."},
+  {"at": 45.5, "text": "But it wouldn't be the first."},
+  {"at": 47.6, "text": "In 1998, a robot sub filmed a plastic bag down here."},
+  {"at": 55.1, "text": "Even at top speed, it takes 1 hour 41 minutes."},
+  {"at": 58.75, "text": "Enough to rewatch this video over 90 times."},
+  {"at": 61.95, "text": "So hold on tight to your phone.", "closer": true}
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "w1015-3eal",
+ "topic": "如果你決定靠統一發票中 1,000 萬（看點：每天 3 張，平均要等約 9 萬年）",
+ "createdAt": 1792073182347,
+ "status": "done",
+ "revisions": [
+  {
+   "t": 1792076408426,
+   "feedback": "請加上縮圖：照 docs/BRIEF.md 的 Thumbnail 段落寫 films/w1015-3eal/thumb.tsx，再跑 node tools/thumb.mjs w1015-3eal，看過 out/thumb_small.jpg，確認縮成 feed 大小時每個字都讀得清楚、而且沒有劇透答案。影片本身不用改，也不要重新 render。"
+  }
+ ],
+ "updatedAt": 1792076497043,
+ "startedAt": 1792076408436,
+ "error": null,
+ "claudeSession": "0121e44b-7987-46b7-be7b-5ee732786d33",
+ "cost": 4.611918800000001,
+ "tokens": 6224301,
+ "turns": 89,
+ "result": "I added the thumbnails. `films/w1015-3eal/thumb.tsx` now exists, and `node tools/thumb.mjs` produced `out/thumb_zh.jpg`, `thumb_en.jpg` and `thumb_small.jpg`. At feed size, the headline and teaser read clearly in both languages.\n\n- **Layout**: The focal image is the opening receipt, reused from the hook's art at the same position, so the cover matches the film's first frame.\n  - The Chinese headline is 「如果靠發票／中千萬？」 at 176 px, with 千萬 in amber.\n  - The English one is \"What if you / won NT$10M / with receipts?\" at 124 px.\n- **Teaser**: 「每天 3 張，要等多久？」 / \"How long at 3 a day?\" in amber. It doesn't give away the 9 萬年 or the 4 天, and the text stays inside y 300–1100.\n- **The film itself**: I didn't change it or re-render it. You said not to, and for thumbnail-only feedback the brief's Revisions section says the same. The general Revisions rule says to re-render, but I followed your instruction. `zh.mp4` and `en.mp4` are still the previous renders.\n- **meta.json**: The format has no thumbnail field, so I only added one line to `notes` describing the cover and its wording.\n- **Caveat**: The small print on the receipt (date, random code, total) is part of the hook art and blurs into texture at feed size. I kept it so the cover matches the opening shot.",
+ "finishedAt": 1792076497043,
+ "costs": {
+  "0121e44b-7987-46b7-be7b-5ee732786d33": 4.611918800000001
+ }
+}

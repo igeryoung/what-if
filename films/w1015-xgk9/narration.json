@@ -1,0 +1,38 @@
+{
+ "zh": [
+  {"at": 0.3, "text": "如果把你一輩子眨眼的時間加起來？"},
+  {"at": 6.2, "text": "一次眨眼，大約零點三秒。"},
+  {"at": 11.1, "text": "這段時間，你什麼也看不見。"},
+  {"at": 14.2, "text": "每一分鐘，大約眨十五次，"},
+  {"at": 19.9, "text": "等於四點五秒的黑暗。"},
+  {"at": 22.2, "text": "醒著的十六小時裡，你要眨一萬四千四百次，"},
+  {"at": 29.1, "text": "等於七十二分鐘看不見。"},
+  {"at": 32.2, "text": "一年下來，"},
+  {"at": 34.6, "text": "有十八天，眼睛是閉著的。"},
+  {"at": 40.2, "text": "如果活到八十歲，"},
+  {"at": 42.0, "text": "從十歲算起，一共眨三點七億次。"},
+  {"at": 50.3, "text": "三點七億次黑暗，你一次都沒發現。"},
+  {"at": 54.7, "text": "因為大腦每次都替你把黑暗藏起來。"},
+  {"at": 58.5, "text": "加起來，大約三點五年，"},
+  {"at": 61.2, "text": "醒著，卻閉著眼。"},
+  {"at": 63.4, "text": "剛剛這一分鐘，你又錯過了四秒半。", "closer": true}
+ ],
+ "en": [
+  {"at": 0.3, "text": "What if you added up every blink of your life?"},
+  {"at": 6.2, "text": "One blink lasts about 0.3 seconds."},
+  {"at": 11.1, "text": "For that long, you see nothing."},
+  {"at": 14.2, "text": "You blink about 15 times a minute."},
+  {"at": 19.9, "text": "That's 4.5 seconds of dark."},
+  {"at": 22.2, "text": "In 16 waking hours, that's 14,400 blinks."},
+  {"at": 29.1, "text": "72 minutes unseen."},
+  {"at": 32.2, "text": "Over a year,"},
+  {"at": 34.6, "text": "18 days with your eyes shut."},
+  {"at": 40.2, "text": "If you live to 80,"},
+  {"at": 41.8, "text": "counting from age 10, that's 370 million blinks."},
+  {"at": 50.3, "text": "370 million blackouts, and you never noticed one."},
+  {"at": 54.7, "text": "Your brain hides every single one."},
+  {"at": 58.5, "text": "Altogether, about 3.5 years,"},
+  {"at": 61.2, "text": "awake, with your eyes shut."},
+  {"at": 63.4, "text": "That last minute? You missed 4.5 seconds of it.", "closer": true}
+ ]
+}

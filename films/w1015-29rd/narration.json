@@ -1,0 +1,38 @@
+{
+ "zh": [
+  {"at": 0.3, "text": "如果你家的貓，跟老虎一樣大？"},
+  {"at": 6.8, "text": "牠還是想坐你腿上。"},
+  {"at": 9.0, "text": "兩百二十公斤，差不多五十隻家貓的重量。"},
+  {"at": 14.2, "text": "清晨五點，牠來討早餐了。"},
+  {"at": 16.9, "text": "一天要吃五到六公斤肉，等於六十五包貓餐包。"},
+  {"at": 22.2, "text": "還有牠的貓砂盆……"},
+  {"at": 24.3, "text": "照獸醫的建議，要大約三公尺長，比乒乓球桌還長。"},
+  {"at": 30.2, "text": "杯子只是開始。"},
+  {"at": 32.2, "text": "筆電，"},
+  {"at": 34.2, "text": "電視，"},
+  {"at": 36.2, "text": "整張桌子。"},
+  {"at": 38.2, "text": "等等……這不就是老虎嗎？"},
+  {"at": 40.6, "text": "基因體相似度，百分之九十五點六。"},
+  {"at": 44.5, "text": "你的貓，本來就是一隻迷你老虎。"},
+  {"at": 48.4, "text": "體型變了，牠沒變。"},
+  {"at": 50.7, "text": "所以你的杯子……還是保不住。", "say": "所以你的杯子，還是保不住。", "closer": true}
+ ],
+ "en": [
+  {"at": 0.3, "text": "What if your cat were as big as a tiger?"},
+  {"at": 6.8, "text": "It still wants your lap."},
+  {"at": 8.8, "text": "All 220 kilograms of it. That's about 50 house cats."},
+  {"at": 14.2, "text": "5 a.m. Breakfast time.", "say": "Five a.m. Breakfast time."},
+  {"at": 16.6, "text": "Five to six kilograms of meat a day. That's 65 pouches of cat food."},
+  {"at": 22.2, "text": "And its litter box?"},
+  {"at": 24.3, "text": "Vets would make it about 3 meters long. Longer than a ping-pong table."},
+  {"at": 30.2, "text": "The mug was just the start."},
+  {"at": 32.2, "text": "The laptop."},
+  {"at": 34.2, "text": "The TV."},
+  {"at": 36.2, "text": "The whole table."},
+  {"at": 38.2, "text": "Wait. Isn't that just a tiger?"},
+  {"at": 40.6, "text": "Their genomes are 95.6 percent alike."},
+  {"at": 44.5, "text": "Your cat was always a mini tiger."},
+  {"at": 48.4, "text": "New size. Same cat."},
+  {"at": 50.7, "text": "So your mug? Still doomed.", "closer": true}
+ ]
+}

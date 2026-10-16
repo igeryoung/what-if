@@ -1,0 +1,34 @@
+{
+  "zh": {
+    "title": "如果讓掃地機器人掃完整個台灣",
+    "summary": "一台掃地機器人時速約 1 公里、一趟掃 30 公分寬，一小時只掃得完 300 平方公尺；要掃完 36,197 平方公里的台灣，就算不充電、一路直線，也要不停掃約 1 萬 4 千年。",
+    "youtube": {
+      "title": "一台掃地機器人掃完整個台灣，要多久？",
+      "description": "一台掃地機器人不停掃完整個台灣，要掃上一萬多年。\n\n掃地機器人時速約 1 公里（每秒 28 公分）、一趟掃 30 公分寬，一小時只掃得完 300 平方公尺。台灣有 36,197 平方公里，是它一小時份量的 1.2 億倍；總路程 1.2 億公里，約繞地球 3,000 圈。途中還有 3,952 公尺的玉山，而它只爬得過約 2 公分的門檻。如果它在金字塔蓋好那年出發，到今天才掃完三分之一，全部掃完要約 1 萬 4 千年（理想狀況：不充電、一路直線、沒有家具擋路）。\n\n資料來源：\n• 台灣面積（外交部 Taiwan at a Glance）：https://roc-taiwan.org/uploads/sites/89/2024/05/2023-2024_Taiwan-at-a-Glance.pdf\n• 掃地機器人速度 0.28 m/s（Vorwerk VR200）：https://support.vorwerk.com/hc/en-us/articles/360000899405-How-fast-is-the-traveling-speed-of-the-VR200\n• 清掃寬度 29 公分（Eufy S1 規格）：https://www.costco.com.tw/p/157134\n• 越障高度約 2 公分（Kobold VR300）：https://www.homeandsmart.de/saugroboter-staubsaugroboter-irobot-kobold\n• 玉山高度（公視新聞）：https://news.pts.org.tw/article/698681\n• 吉薩大金字塔年代（維基百科）：https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza\n• 地球周長（維基百科）：https://en.wikipedia.org/wiki/Earth\n\n配樂：原創（樣本 VSCO 2 CE、VCSL，CC0）\n地圖：Natural Earth（公有領域）；地球影像：NASA Blue Marble\n\n#掃地機器人 #台灣 #如果 #科普 #shorts",
+      "tags": ["掃地機器人", "台灣", "如果", "科普", "台灣面積", "玉山", "金字塔", "趣味數學", "冷知識", "what if"]
+    }
+  },
+  "en": {
+    "title": "What if a robot vacuum cleaned all of Taiwan?",
+    "summary": "A robot vacuum moves at about 1 km/h and cleans a 30 cm lane, so it covers just 300 m² an hour. Cleaning all 36,197 km² of Taiwan, with no charging and only straight lines, would take it about 14,000 years of nonstop work.",
+    "youtube": {
+      "title": "How long would one robot vacuum take to clean all of Taiwan?",
+      "description": "One robot vacuum cleaning all of Taiwan nonstop would be at it for over 10,000 years.\n\nA robot vacuum moves at about 1 km/h (28 cm per second) and cleans a 30 cm wide lane, so it covers just 300 m² an hour. Taiwan is 36,197 km², 120 million times its hourly work. The total distance is 120 million km, about 3,000 laps around the Earth. On the way there's 3,952 m Yushan, and it can only climb a threshold of about 2 cm. If it had set off the year the Great Pyramid was finished, today it would be only 1/3 done. Finishing takes about 14,000 years (ideal case: no charging, straight lines, no furniture).\n\nSources:\n• Taiwan's area (MOFA, Taiwan at a Glance): https://roc-taiwan.org/uploads/sites/89/2024/05/2023-2024_Taiwan-at-a-Glance.pdf\n• Robot vacuum speed 0.28 m/s (Vorwerk VR200): https://support.vorwerk.com/hc/en-us/articles/360000899405-How-fast-is-the-traveling-speed-of-the-VR200\n• 29 cm cleaning width (Eufy S1 spec): https://www.costco.com.tw/p/157134\n• Climbs about 2 cm (Kobold VR300): https://www.homeandsmart.de/saugroboter-staubsaugroboter-irobot-kobold\n• Yushan's height (PTS News): https://news.pts.org.tw/article/698681\n• Great Pyramid date (Wikipedia): https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza\n• Earth's circumference (Wikipedia): https://en.wikipedia.org/wiki/Earth\n\nMusic: original score (samples: VSCO 2 CE, VCSL, CC0)\nMap: Natural Earth (public domain); Earth imagery: NASA Blue Marble\n\n#robotvacuum #Taiwan #whatif #science #shorts",
+      "tags": ["robot vacuum", "Taiwan", "what if", "science", "Roomba", "Yushan", "Great Pyramid", "fun facts", "math", "Taiwan area"]
+    }
+  },
+  "sources": [
+    {"label": "外交部 Taiwan at a Glance 2023–2024（總面積 36,197 km²）", "url": "https://roc-taiwan.org/uploads/sites/89/2024/05/2023-2024_Taiwan-at-a-Glance.pdf"},
+    {"label": "Vorwerk：VR200 行進速度約 0.28 m/s", "url": "https://support.vorwerk.com/hc/en-us/articles/360000899405-How-fast-is-the-traveling-speed-of-the-VR200"},
+    {"label": "Vorwerk：VR200 機身 34 × 34 cm（技術規格）", "url": "https://support.vorwerk.com/hc/en-gb/sections/360004580759-Technical-specifications"},
+    {"label": "好市多 Eufy S1：「業界最長 29cm 全覆蓋」、機身寬 34.7 cm", "url": "https://www.costco.com.tw/p/157134"},
+    {"label": "homeandsmart：Kobold VR300 可越過 2 cm 障礙", "url": "https://www.homeandsmart.de/saugroboter-staubsaugroboter-irobot-kobold"},
+    {"label": "Anker 部落格：多款 Roborock 越障約 2 cm、Roomba 1.6 cm", "url": "https://www.anker.com/de/blogs/robovac/robot-vacuums-for-high-door-thresholds"},
+    {"label": "公視新聞：玉山主峰 3952.433 公尺（國土測繪中心 2024）", "url": "https://news.pts.org.tw/article/698681"},
+    {"label": "Wikipedia：Great Pyramid of Giza（約西元前 2560 年完工）", "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"},
+    {"label": "Wikipedia：Earth（赤道周長 40,075 km）", "url": "https://en.wikipedia.org/wiki/Earth"},
+    {"label": "Natural Earth 10m admin-0（台灣輪廓，公有領域）", "url": "https://www.naturalearthdata.com/"},
+    {"label": "NASA Blue Marble（地球貼圖）", "url": "https://visibleearth.nasa.gov/collection/1484/blue-marble"}
+  ],
+  "notes": "模型：速度 0.28 m/s（Vorwerk VR200 規格）× 3.6 = 1.008 km/h ≈ 時速 1 公里；清掃寬度取 30 公分（Eufy S1 標示 29 cm、機身寬約 34–35 cm）。理想狀況：不充電、直線來回、沒有家具、不重疊。\n一小時：1 km × 0.3 m = 300 m²（以 0.28 m/s 走 1 公里需 59.5 分鐘）。\n台灣 36,197 km² = 3.6197e10 m²；÷ 300 m² = 1.2066e8（1.2 億倍 / 1.2 億小時）。\n時間：1.2066e8 小時 ÷ 8,766 小時/年 = 13,764 年 ≈ 1 萬 4 千年。敏感度：0.28 m/s × 0.30 m → 13,655 年；0.28 m/s × 0.29 m → 14,126 年；1 km/h × 0.29 m → 14,239 年，皆約 1.4 萬年。\n總路程：3.6197e10 m² ÷ 0.3 m = 1.2066e11 m = 1.2066e8 km ≈ 1.2 億公里；÷ 40,075 km = 3,011 圈 ≈ 3,000 圈（片中計數器停在 3,000）。\n玉山：3,952 m ÷ 0.02 m = 197,600 ≈ 20 萬個門檻。\n金字塔：約西元前 2560 年完工 → 2026 年，經過 2560 + 2026 − 1 = 4,585 年（無西元 0 年）；4,585 ÷ 13,764 = 33.3% ≈ 三分之一（用 14,126 年算是 32.5%）。片中年份計數器由西元前 2560 線性跑到 2026，只是示意。\n地圖：Natural Earth 10m 台灣多邊形（排除畫面外的金門；馬祖不在該資料的台灣多邊形內），面積約 36,127 km²，與官方 36,197 km² 相差 0.2%。掃過範圍依面積由北往南累積計算，所以「1/3」那條線是按面積切的。\n已知弱點：(1) 這是理想上限。家用實測因轉彎、家具、重疊，每分鐘約只掃 1–1.7 平方公尺（例：有評測 30 分鐘掃 28 m²），照那個速度要 4–7 萬年以上，片中以「假設：不充電、一路直線、沒有家具擋路」標示。(2) 速度只引用一家廠商規格（Vorwerk），清掃寬度引用 Eufy 行銷文案，取整成 30 公分。(3) 面積是平面投影，山坡實際表面積更大；36,197 km² 含金門、馬祖等離島。(4) 越障 2 公分是常見規格（各品牌約 1.6–2 cm），不是單一標準。(5) 玉山的形狀與「門檻條紋」是示意圖，不是地形資料。"
+}

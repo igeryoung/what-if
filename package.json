@@ -1,0 +1,25 @@
+{
+  "name": "what-if",
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "node studio/server.mjs",
+    "typecheck": "tsc -p .",
+    "stills": "node tools/stills.mjs",
+    "render": "node tools/render.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "What-if Studio: 60 s vertical explainer films (Remotion) in Chinese and English",
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/noto-sans-tc": "^5.3.1",
+    "@remotion/cli": "^4.0.535",
+    "@remotion/renderer": "^4.0.535",
+    "@types/react": "^19.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.535",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

@@ -1,0 +1,26 @@
+{
+  "zh": {
+    "title": "如果地球轉快 10 倍",
+    "summary": "一天剩 2 小時 24 分、赤道時速 16,744 km、兩極的海流乾全部堆到赤道、天空長出木星條紋。",
+    "youtube": {
+      "title": "如果地球轉快 10 倍，一天只剩 2 小時 24 分",
+      "description": "如果地球自轉快 10 倍，會發生什麼事？\n\n一天只剩 2 小時 24 分，赤道時速 16,744 公里。光是離心力就把赤道海面抬高，兩極的海流乾了，海水全堆到赤道；天空長出像木星一樣的條紋。數字由標準物理常數計算。\n\n資料來源：\n• NASA Visible Earth：Blue Marble：https://visibleearth.nasa.gov/collection/1484/blue-marble\n配樂：原創（樣本 VSCO 2 CE、VCSL，CC0）\n\n#地球 #物理 #冷知識 #如果 #shorts",
+      "tags": [
+        "地球",
+        "自轉",
+        "物理",
+        "冷知識",
+        "如果系列",
+        "離心力",
+        "木星"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "NASA Visible Earth：Blue Marble",
+      "url": "https://visibleearth.nasa.gov/collection/1484/blue-marble"
+    }
+  ],
+  "notes": "數字由標準物理常數計算（archive/earth-10x/tools/facts.py）。原始碼在 archive/earth-10x-v2（獨立的舊專案），無法在 Studio 內修改。"
+}

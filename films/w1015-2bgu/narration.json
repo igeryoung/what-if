@@ -1,0 +1,38 @@
+{
+ "zh": [
+  {"at": 0.3, "text": "如果蚊子跟鴿子一樣大？"},
+  {"at": 2.9, "text": "叮一口，會吸走多少血？"},
+  {"at": 6.3, "text": "一隻蚊子約兩毫克，鴿子約三百克。"},
+  {"at": 10.1, "text": "十五萬隻蚊子，才跟一隻鴿子一樣重。"},
+  {"at": 14.2, "text": "叮一口，大約吸走三毫克的血，"},
+  {"at": 17.4, "text": "比牠自己的體重還重。"},
+  {"at": 22.2, "text": "放大十五萬倍，就是大約四百二十五毫升。"},
+  {"at": 26.7, "text": "叮一口，差不多就是捐一袋血。"},
+  {"at": 32.2, "text": "你全身的血，大約五公升。"},
+  {"at": 35.2, "text": "被叮五口，就少了超過四成，"},
+  {"at": 38.9, "text": "已經危及生命。"},
+  {"at": 42.4, "text": "不過這麼大一隻，你一定看得到。"},
+  {"at": 48.4, "text": "但真正的蚊子只有兩毫克，小到你根本沒發現。"},
+  {"at": 53.2, "text": "蚊子傳播的瘧疾，2024 年奪走了六十一萬人。"},
+  {"at": 58.5, "text": "大蚊子要你的血，小蚊子要你的命。"},
+  {"at": 61.8, "text": "所以下次那一巴掌，別客氣。", "closer": true}
+ ],
+ "en": [
+  {"at": 0.3, "text": "What if mosquitoes were the size of pigeons?"},
+  {"at": 2.9, "text": "How much blood would one bite take?"},
+  {"at": 6.3, "text": "Mosquito: about 2 milligrams. Pigeon: about 300 grams.", "rate": "+8%"},
+  {"at": 10.95, "text": "It takes 150,000 to match one pigeon."},
+  {"at": 14.2, "text": "One bite takes about 3 milligrams of blood."},
+  {"at": 17.4, "text": "More than its own weight."},
+  {"at": 22.2, "text": "150,000 times bigger: about 425 milliliters.", "rate": "+6%"},
+  {"at": 27.0, "text": "One bite is about one blood donation."},
+  {"at": 32.2, "text": "You have about 5 liters of blood."},
+  {"at": 35.2, "text": "Five bites, and you've lost over 40 percent."},
+  {"at": 38.9, "text": "That's life-threatening."},
+  {"at": 42.4, "text": "But one this big? You'd see it coming."},
+  {"at": 48.4, "text": "Real mosquitoes weigh just 2 milligrams. Too small to even notice."},
+  {"at": 53.0, "text": "In 2024, mosquito-borne malaria killed 610,000 people."},
+  {"at": 58.5, "text": "Big ones take your blood. Small ones take your life."},
+  {"at": 61.8, "text": "So next time, don't hold back the slap.", "closer": true}
+ ]
+}

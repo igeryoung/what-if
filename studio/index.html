@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>What-if Studio</title>
+<style>
+	:root {
+		--bg: #0b0c10;
+		--panel: #14161c;
+		--line: #262932;
+		--ink: #f2efe9;
+		--dim: #8b909a;
+		--accent: #ffb020;
+		--red: #ff4d42;
+		--green: #3ccf8e;
+		--blue: #5ab4ff;
+		font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif;
+	}
+	* { box-sizing: border-box; }
+	body { margin: 0; background: var(--bg); color: var(--ink); min-height: 100vh; }
+	a { color: inherit; }
+	.wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px 80px; }
+	header { display: flex; align-items: center; justify-content: space-between; padding: 22px 0; }
+	.logo { font-weight: 900; letter-spacing: .5px; font-size: 18px; text-decoration: none; }
+	.logo span { color: var(--accent); }
+	.hint { color: var(--dim); font-size: 13px; }
+
+	/* hero prompt */
+	.hero { padding: 9vh 0 6vh; text-align: center; }
+	.hero h1 { font-size: clamp(34px, 6vw, 64px); margin: 0 0 10px; font-weight: 900; letter-spacing: -.5px; }
+	.hero h1 em { font-style: normal; color: var(--accent); }
+	.hero p { color: var(--dim); margin: 0 0 34px; }
+	.prompt { display: flex; gap: 10px; max-width: 720px; margin: 0 auto; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 8px; transition: border-color .2s, box-shadow .2s; }
+	.prompt:focus-within { border-color: #4a4f5c; box-shadow: 0 0 0 4px rgba(255, 176, 32, .08); }
+	.prompt input { flex: 1; min-width: 0; background: transparent; border: 0; outline: 0; color: var(--ink); font: inherit; font-size: 19px; padding: 12px 10px; }
+	.prompt input::placeholder { color: #5d626d; }
+	.btn { border: 0; border-radius: 12px; font: inherit; font-weight: 700; cursor: pointer; padding: 0 18px; height: 50px; display: inline-flex; align-items: center; gap: 8px; }
+	.btn:disabled { opacity: .45; cursor: default; }
+	.dice { background: #1f2229; color: var(--ink); width: 50px; padding: 0; justify-content: center; font-size: 24px; }
+	.dice:hover { background: #292d36; }
+	.dice.roll { animation: roll .55s cubic-bezier(.3,1.6,.5,1); }
+	@keyframes roll { from { transform: rotate(-200deg) scale(.7); } to { transform: rotate(0) scale(1); } }
+	.go { background: var(--accent); color: #1a1205; }
+	.go:hover { filter: brightness(1.06); }
+
+	/* gallery */
+	h2 { font-size: 15px; color: var(--dim); font-weight: 700; letter-spacing: 1px; margin: 28px 0 14px; }
+	.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 16px; }
+	.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; text-decoration: none; display: flex; flex-direction: column; transition: transform .15s, border-color .15s; }
+	.card:hover { transform: translateY(-3px); border-color: #3a3f4b; }
+	.thumb { aspect-ratio: 9 / 16; background: #0f1015 center / cover no-repeat; position: relative; display: flex; align-items: center; justify-content: center; }
+	.thumb .spin { width: 34px; height: 34px; border: 3px solid #2c3039; border-top-color: var(--accent); border-radius: 50%; animation: spin 1s linear infinite; }
+	@keyframes spin { to { transform: rotate(360deg); } }
+	.card .meta { padding: 10px 12px 12px; }
+	.card .t { font-weight: 700; font-size: 14px; line-height: 1.35; margin-bottom: 6px; }
+	.row { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--dim); flex-wrap: wrap; }
+	.pill { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 99px; background: #23262e; color: var(--dim); }
+	.pill.running, .pill.queued { background: rgba(255, 176, 32, .14); color: var(--accent); }
+	.pill.done { background: rgba(60, 207, 142, .13); color: var(--green); }
+	.pill.failed, .pill.interrupted, .pill.cancelled { background: rgba(255, 77, 66, .13); color: var(--red); }
+	.empty { color: var(--dim); padding: 30px 0; }
+
+	/* detail */
+	.detail { display: grid; grid-template-columns: minmax(260px, 380px) 1fr; gap: 28px; padding-top: 6px; }
+	.player { aspect-ratio: 9 / 16; width: 100%; background: #000; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; position: relative; }
+	.player video { width: 100%; height: 100%; display: block; background: #000; }
+	.player .wait { text-align: center; color: var(--dim); padding: 20px; }
+	.player .wait .spin { margin: 0 auto 16px; width: 40px; height: 40px; border: 3px solid #2c3039; border-top-color: var(--accent); border-radius: 50%; animation: spin 1s linear infinite; }
+	.back { color: var(--dim); text-decoration: none; font-size: 14px; }
+	.title { font-size: clamp(24px, 3.4vw, 34px); font-weight: 900; margin: 10px 0 8px; line-height: 1.25; }
+	.stats { display: flex; gap: 18px; flex-wrap: wrap; color: var(--dim); font-size: 13px; margin: 6px 0 18px; }
+	.stats b { color: var(--ink); font-weight: 700; }
+	.summary { line-height: 1.7; color: #d8d4cc; margin: 0 0 16px; }
+	.feed { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 6px 0; max-height: 360px; overflow: auto; font-size: 13px; }
+	.ev { padding: 6px 14px; display: flex; gap: 10px; line-height: 1.5; }
+	.ev .k { flex: none; width: 18px; text-align: center; opacity: .8; }
+	.ev.text { color: #d8d4cc; }
+	.ev.tool { color: var(--dim); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+	.ev.status { color: var(--accent); font-weight: 700; }
+	.ev.user { color: var(--blue); }
+	.revise { display: flex; gap: 10px; margin-top: 16px; }
+	.revise input { flex: 1; min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; color: var(--ink); font: inherit; padding: 0 14px; height: 48px; outline: 0; }
+	.revise input:focus { border-color: #4a4f5c; }
+	.ghost { background: #1f2229; color: var(--ink); height: 48px; }
+	.danger { background: transparent; color: var(--red); border: 1px solid rgba(255, 77, 66, .35); height: 36px; font-size: 13px; }
+	.sources { margin-top: 18px; font-size: 13px; color: var(--dim); }
+	.sources a { color: var(--blue); text-decoration: none; }
+	.sources li { margin: 4px 0; }
+	.result { white-space: pre-wrap; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; font-size: 13px; line-height: 1.7; color: #d8d4cc; margin-top: 16px; }
+	.err { color: var(--red); font-size: 13px; margin-top: 8px; }
+	.langs { display: flex; gap: 8px; margin-top: 12px; align-items: center; flex-wrap: wrap; }
+	.tab { background: #1f2229; color: var(--dim); height: 36px; font-size: 13px; padding: 0 14px; }
+	.tab.on { background: var(--accent); color: #1a1205; }
+	.dl { margin-left: auto; height: 36px; font-size: 13px; text-decoration: none; }
+	.yt { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px 2px; margin: 0 0 16px; }
+	.yt-h { font-size: 12px; color: var(--dim); font-weight: 700; letter-spacing: 1px; margin-bottom: 10px; }
+	.field { margin-bottom: 12px; }
+	.lab { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--dim); margin-bottom: 4px; }
+	.cnt.over { color: var(--red); font-weight: 700; }
+	.copy { margin-left: auto; background: #1f2229; color: var(--ink); border: 0; border-radius: 8px; font: inherit; font-size: 12px; padding: 4px 10px; cursor: pointer; }
+	.copy:hover { background: #292d36; }
+	.copy.ok { color: var(--green); }
+	.val { font-size: 14px; line-height: 1.6; color: #d8d4cc; white-space: pre-wrap; word-break: break-word; margin: 0; font-family: inherit; }
+	@media (max-width: 760px) {
+		.detail { grid-template-columns: 1fr; }
+		.player { max-width: 360px; margin: 0 auto; }
+		.hero { padding-top: 5vh; }
+	}
+</style>
+</head>
+<body>
+<div class="wrap">
+	<header>
+		<a class="logo" href="#/">What-if <span>Studio</span></a>
+		<span class="hint" id="running"></span>
+	</header>
+	<main id="app"></main>
+</div>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const api = async (url, opts) => {
+	const r = await fetch(url, opts && {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify(opts)});
+	const j = await r.json();
+	if (!r.ok) throw new Error(j.error || r.statusText);
+	return j;
+};
+const LABEL = {queued: '排隊中', running: '製作中', done: '完成', failed: '失敗', interrupted: '中斷', cancelled: '已取消'};
+const ago = (t) => {
+	const s = (Date.now() - t) / 1000;
+	if (s < 60) return '剛剛';
+	if (s < 3600) return `${Math.floor(s / 60)} 分鐘前`;
+	if (s < 86400) return `${Math.floor(s / 3600)} 小時前`;
+	return new Date(t).toLocaleDateString('zh-TW', {month: 'numeric', day: 'numeric'});
+};
+const dur = (ms) => {
+	const m = Math.round(ms / 60000);
+	return m < 1 ? '<1 分' : `${m} 分`;
+};
+const LANG_NAME = {zh: '中文', en: 'English'};
+const LANG_SHORT = {zh: '中', en: 'EN'};
+const titleOf = (s, lang = 'zh') => s.meta?.[lang]?.title || s.meta?.zh?.title || s.topic;
+const chars = (x) => [...String(x ?? '')].length;
+async function copyText(text, btn) {
+	try {
+		await navigator.clipboard.writeText(text); // needs https or localhost
+	} catch {
+		const ta = Object.assign(document.createElement('textarea'), {value: text});
+		document.body.append(ta);
+		ta.select();
+		document.execCommand('copy');
+		ta.remove();
+	}
+	btn.textContent = '已複製';
+	btn.classList.add('ok');
+	setTimeout(() => ((btn.textContent = '複製'), btn.classList.remove('ok')), 1400);
+}
+let timer = null;
+
+// ── home ───────────────────────────────────────────────────────────────────
+async function home() {
+	clearInterval(timer);
+	$('#app').innerHTML = `
+		<section class="hero">
+			<h1>如果… <em>?</em></h1>
+			<p>輸入一個「如果」，或擲骰子。大約 10–20 分鐘後拿到一支約一分鐘的直式影片。</p>
+			<form class="prompt" id="f">
+				<button type="button" class="btn dice" id="dice" title="隨機題目">🎲</button>
+				<input id="q" autocomplete="off" placeholder="如果全世界的人同時跳一下…" maxlength="300" />
+				<button class="btn go" id="go">製作 ↵</button>
+			</form>
+			<div class="err" id="err"></div>
+		</section>
+		<h2>作品</h2>
+		<div class="grid" id="grid"></div>`;
+	$('#dice').onclick = roll;
+	$('#f').onsubmit = async (e) => {
+		e.preventDefault();
+		const topic = $('#q').value.trim();
+		if (!topic) return roll();
+		$('#go').disabled = true;
+		try {
+			const s = await api('/api/sessions', {topic});
+			location.hash = `#/s/${s.id}`;
+		} catch (err) {
+			$('#err').textContent = err.message;
+			$('#go').disabled = false;
+		}
+	};
+	$('#q').focus();
+	await refreshGrid();
+	timer = setInterval(refreshGrid, 4000);
+}
+
+async function roll() {
+	const d = $('#dice');
+	d.classList.remove('roll');
+	void d.offsetWidth;
+	d.classList.add('roll');
+	const {topic} = await api('/api/dice');
+	const q = $('#q');
+	q.value = '';
+	for (const ch of topic) {
+		q.value += ch;
+		await new Promise((r) => setTimeout(r, 22));
+	}
+	q.focus();
+}
+
+async function refreshGrid() {
+	const list = await api('/api/sessions');
+	const run = list.filter((s) => s.status === 'running' || s.status === 'queued').length;
+	$('#running').textContent = run ? `${run} 支製作中` : '';
+	const g = $('#grid');
+	if (!g) return;
+	if (!list.length) return (g.innerHTML = '<div class="empty">還沒有作品。擲個骰子吧。</div>');
+	g.innerHTML = list
+		.map((s) => {
+			const busy = s.status === 'running' || s.status === 'queued';
+			const bg = s.hasVideo ? `style="background-image:url('/poster/${s.id}?v=${Math.round(s.videoMtime)}')"` : '';
+			return `<a class="card" href="#/s/${s.id}">
+				<div class="thumb" ${bg}>${busy && !s.hasVideo ? '<div class="spin"></div>' : ''}</div>
+				<div class="meta">
+					<div class="t">${esc(titleOf(s))}</div>
+					<div class="row"><span class="pill ${s.status}">${LABEL[s.status] || s.status}</span><span>${ago(s.createdAt)}</span>${s.cost ? `<span>$${s.cost.toFixed(2)}</span>` : ''}${Object.keys(s.videos || {}).map((l) => `<span class="pill">${LANG_SHORT[l] || l}</span>`).join('')}</div>
+				</div></a>`;
+		})
+		.join('');
+}
+
+// ── session ────────────────────────────────────────────────────────────────
+let shownVideo = '';
+let shownYt = '';
+let curLang = 'zh';
+async function session(id) {
+	clearInterval(timer);
+	shownVideo = shownYt = '';
+	curLang = 'zh';
+	$('#app').innerHTML = `<a class="back" href="#/">← 所有作品</a>
+		<div class="detail">
+			<div><div class="player" id="player"></div><div class="langs" id="langs"></div></div>
+			<div>
+				<div class="title" id="title"></div>
+				<div class="stats" id="stats"></div>
+				<p class="summary" id="summary"></p>
+				<div id="yt"></div>
+				<div class="feed" id="feed"></div>
+				<form class="revise" id="rv">
+					<input id="fb" autocomplete="off" placeholder="想改什麼？例如：字再大一點、開頭更快進入重點" maxlength="2000" />
+					<button class="btn ghost" id="rvgo">修改</button>
+				</form>
+				<div class="err" id="err"></div>
+				<div id="extra"></div>
+			</div>
+		</div>`;
+	$('#rv').onsubmit = async (e) => {
+		e.preventDefault();
+		const feedback = $('#fb').value.trim();
+		if (!feedback) return;
+		$('#rvgo').disabled = true;
+		try {
+			await api(`/api/sessions/${id}/revise`, {feedback});
+			$('#fb').value = '';
+			$('#err').textContent = '';
+			await draw(id);
+		} catch (err) {
+			$('#err').textContent = err.message;
+		}
+		$('#rvgo').disabled = false;
+	};
+	await draw(id);
+	timer = setInterval(() => draw(id), 3000);
+}
+
+async function draw(id) {
+	let s;
+	try {
+		s = await api(`/api/sessions/${id}`);
+	} catch (e) {
+		$('#app').innerHTML = `<a class="back" href="#/">← 所有作品</a><p class="err">${esc(e.message)}</p>`;
+		return clearInterval(timer);
+	}
+	const busy = s.status === 'running' || s.status === 'queued';
+	const langs = ['zh', 'en'].filter((l) => s.videos?.[l] || s.meta?.[l]);
+	if (langs.length && !langs.includes(curLang)) curLang = langs[0];
+	const lang = curLang;
+	$('#title').textContent = titleOf(s, lang);
+	document.title = `${titleOf(s)} · What-if Studio`;
+	const elapsed = s.startedAt ? (s.finishedAt && !busy ? s.finishedAt : Date.now()) - s.startedAt : 0;
+	$('#stats').innerHTML = [
+		`<span class="pill ${s.status}">${LABEL[s.status] || s.status}</span>`,
+		titleOf(s, lang) !== s.topic ? `<span>題目：<b>${esc(s.topic)}</b></span>` : '',
+		elapsed ? `<span>耗時 <b>${dur(elapsed)}</b></span>` : '',
+		s.cost ? `<span>花費 <b>$${s.cost.toFixed(2)}</b></span>` : '',
+		s.tokens ? `<span>tokens <b>${(s.tokens / 1e6).toFixed(2)}M</b></span>` : '',
+		s.revisions?.length ? `<span>修改 <b>${s.revisions.length}</b> 次</span>` : '',
+		busy ? `<button class="btn danger" id="cancel">取消</button>` : '',
+	].join('');
+	if (busy) $('#cancel').onclick = () => api(`/api/sessions/${id}/cancel`, {}).then(() => draw(id));
+	$('#summary').textContent = s.meta?.[lang]?.summary || '';
+
+	// player: swap the source only when the language or the file changes (so playback isn't interrupted)
+	const mtime = Math.round(s.videos?.[lang] || 0);
+	const key = mtime ? `${s.id}:${lang}:${mtime}` : `wait:${busy}:${s.hasVideo}`;
+	if (key !== shownVideo) {
+		shownVideo = key;
+		$('#player').innerHTML = mtime
+			? `<video controls playsinline preload="metadata" ${lang === 'zh' ? `poster="/poster/${s.id}?v=${mtime}"` : ''} src="/video/${s.id}/${lang}?v=${mtime}"></video>`
+			: `<div class="wait">${busy ? '<div class="spin"></div>Claude 正在查資料、寫分鏡、配樂、算繪…<br>通常 10–20 分鐘' : s.hasVideo ? '這個語言還沒有影片' : '沒有影片'}</div>`;
+	}
+	$('#langs').innerHTML =
+		(langs.length > 1 ? langs.map((l) => `<button class="btn tab ${l === lang ? 'on' : ''}" data-lang="${l}">${LANG_NAME[l]}</button>`).join('') : '') +
+		(mtime ? `<a class="btn ghost dl" href="/video/${s.id}/${lang}" download="${s.id}-${lang}.mp4">下載 ${LANG_NAME[lang]} mp4</a>` : '');
+	for (const b of document.querySelectorAll('#langs .tab')) b.onclick = () => ((curLang = b.dataset.lang), draw(id));
+
+	// YouTube Shorts copy for the selected language; re-render only when it changes (so selections survive polling)
+	const yt = s.meta?.[lang]?.youtube;
+	const ytKey = JSON.stringify([lang, yt || null]);
+	if (ytKey !== shownYt) {
+		shownYt = ytKey;
+		const tags = (yt?.tags || []).join(', ');
+		const bad = (x) => /[<>]/.test(x);
+		const field = (k, label, value, max) =>
+			`<div class="field"><div class="lab">${label}${max ? ` <span class="cnt ${chars(value) > max || bad(value) ? 'over' : ''}">${chars(value)}/${max}${bad(value) ? '，含 < 或 >，YouTube 不接受' : ''}</span>` : ''}<button class="copy" data-k="${k}">複製</button></div><pre class="val">${esc(value)}</pre></div>`;
+		$('#yt').innerHTML = yt
+			? `<div class="yt"><div class="yt-h">YouTube Shorts · ${LANG_NAME[lang]}</div>${field('title', '標題', yt.title || '', 100)}${field('description', '內文', yt.description || '', 5000)}${field('tags', '標籤', tags, 500)}</div>`
+			: '';
+		const values = {title: yt?.title || '', description: yt?.description || '', tags};
+		for (const b of document.querySelectorAll('#yt .copy')) b.onclick = () => copyText(values[b.dataset.k], b);
+	}
+
+	const ICON = {text: '💬', tool: '›', status: '●', user: '✎'};
+	const feed = $('#feed');
+	const nearBottom = feed.scrollHeight - feed.scrollTop - feed.clientHeight < 40;
+	feed.innerHTML = s.events.length
+		? s.events.map((e) => `<div class="ev ${e.kind}"><span class="k">${ICON[e.kind] || '·'}</span><span>${esc(e.text)}</span></div>`).join('')
+		: `<div class="ev"><span class="k">·</span><span>${s.legacy || !s.claudeSession ? '這支片在 Studio 之外製作，沒有製作紀錄。' : '等待中…'}</span></div>`;
+	if (nearBottom) feed.scrollTop = feed.scrollHeight;
+
+	$('#rv').style.display = s.legacy ? 'none' : '';
+	$('#fb').disabled = $('#rvgo').disabled = busy;
+	if (s.error) $('#err').textContent = s.error;
+
+	const src = s.meta?.sources?.length
+		? `<div class="sources"><b>資料來源</b><ul>${s.meta.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a></li>`).join('')}</ul>${s.meta.notes ? `<div>備註：${esc(s.meta.notes)}</div>` : ''}</div>`
+		: '';
+	$('#extra').innerHTML = src;
+}
+
+// ── router ─────────────────────────────────────────────────────────────────
+function route() {
+	const m = location.hash.match(/^#\/s\/([a-z0-9-]+)/);
+	m ? session(m[1]) : home();
+}
+addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>

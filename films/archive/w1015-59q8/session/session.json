@@ -1,0 +1,28 @@
+{
+ "id": "w1015-59q8",
+ "topic": "如果手搖飲的杯子有 3 層樓高（看點：就算把肺抽成真空，吸管最多也只能把奶茶吸上約 10 公尺）",
+ "createdAt": 1792072943731,
+ "status": "done",
+ "revisions": [
+  {
+   "t": 1792073182294,
+   "feedback": "上一次製作在查證階段被中斷了（Studio 重啟改成平行製作），還沒有產出任何檔案。請接著把整支片做完：查證、畫面、配樂、兩種語言 render、檢查畫格、寫 meta.json。"
+  },
+  {
+   "t": 1792076408302,
+   "feedback": "請加上縮圖：照 docs/BRIEF.md 的 Thumbnail 段落寫 films/w1015-59q8/thumb.tsx，再跑 node tools/thumb.mjs w1015-59q8，看過 out/thumb_small.jpg，確認縮成 feed 大小時每個字都讀得清楚、而且沒有劇透答案。影片本身不用改，也不要重新 render。"
+  }
+ ],
+ "updatedAt": 1792076570756,
+ "startedAt": 1792076408304,
+ "error": null,
+ "claudeSession": "cda41913-9a8b-461a-8cf7-b869377546d4",
+ "finishedAt": 1792076570756,
+ "cost": 6.4435631,
+ "tokens": 8446416,
+ "turns": 84,
+ "result": "縮圖做好了：`films/w1015-59q8/out/thumb_zh.jpg` 和 `thumb_en.jpg`，各約 130 KB，YouTube 上限是 2 MB。影片沒改，也沒重新 render；影片內容沒變，所以 meta.json 也沒動。\n\n- **畫面**：直接用影片開場那個 3 層樓高的手搖杯加旁邊的透天厝，和第一格一致。杯底珍珠用影片裡出現過的琥珀色虛線圈標出來，壓在底部約 350 px 之上，不會被 feed 標題蓋住。\n- **文字**：標題是「如果手搖飲／有3層樓高？」（150 px），英文是「What if / bubble tea / were 3 / stories tall?」。下面一句琥珀色提問「吸得到杯底的珍珠嗎？」／「Could you sip the pearls?」。\n- **縮小檢查**：看過 `thumb_small.jpg`，縮成 feed 大小（約 240 px 寬）兩種語言每個字都讀得清楚。\n- **沒有劇透**：畫面上沒有 1 公尺、10 公尺或「3 層樓就是極限」，只問問題。\n- **修過一次**：第一版中文標題會折成三行、壓到提問句；英文提問句太貼近杯蓋上的人。已縮小行距、拿掉「3」兩邊的空格解決。另外英文提問句右端到約 x 962，比影片裡避開右邊 120 px 的規則略寬。feed 縮圖右側沒有平台按鈕，我判斷沒影響。",
+ "costs": {
+  "cda41913-9a8b-461a-8cf7-b869377546d4": 6.4435631
+ }
+}

@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "title": "如果狗用狗年齡過生日",
+    "summary": "「狗 1 歲 = 人 7 歲」是錯的：依 2020 年拉布拉多 DNA 甲基化研究的公式，1 歲的狗約等於 31 歲的人，之後才慢下來；老了以後乘以 7 反而算太老，而且大型犬老得比較快。",
+    "youtube": {
+      "title": "狗 1 歲其實已經 31 歲？「乘以 7」是錯的",
+      "description": "如果狗用狗年齡過生日，1 歲生日要插幾根蠟燭？\n大家都說狗的 1 歲等於人的 7 歲，但狗平均約 6 個月大就進入青春期，1 歲時多半已經能當爸媽。2020 年一項研究比對了 104 隻拉布拉多和 320 個人的 DNA，得出換算公式：人的年齡 ≈ 16 × ln(狗的年齡) + 31。算下來，1 歲的狗約等於 31 歲的人，2 歲約 42、7 歲約 62、12 歲約 71；老了以後，乘以 7（84 歲）反而算太老。另外，哺乳動物通常越大越長壽，狗卻相反：大型犬老得比較快。\n#狗 #狗狗年齡 #寵物 #科學 #shorts",
+      "tags": [
+        "狗年齡",
+        "狗的年齡換算",
+        "狗1歲等於人幾歲",
+        "乘以7",
+        "拉布拉多",
+        "DNA甲基化",
+        "表觀遺傳時鐘",
+        "寵物知識",
+        "狗狗",
+        "如果"
+      ]
+    }
+  },
+  "en": {
+    "title": "What if dogs had birthdays in dog years?",
+    "summary": "\"One dog year = seven human years\" is wrong: by the formula from a 2020 DNA-methylation study of Labradors, a 1-year-old dog is about 31 in human years and only then slows down; in old age ×7 overshoots, and big breeds age faster.",
+    "youtube": {
+      "title": "Is a 1-year-old dog already 31? Why “×7” is wrong",
+      "description": "What if dogs had birthdays in dog years? How many candles at age 1?\nEveryone says one dog year equals seven human years, but dogs reach puberty at about 6 months on average, so most 1-year-old dogs can already have puppies. A 2020 study compared the DNA of 104 Labradors and 320 people and found a conversion: human age ≈ 16 × ln(dog age) + 31. That makes a 1-year-old dog about 31, a 2-year-old about 42, a 7-year-old about 62 and a 12-year-old about 71, so in old age ×7 (84) actually makes dogs too old. And while bigger mammals usually live longer, dogs flip it: big breeds age faster.\n#dogs #dogyears #pets #science #shorts",
+      "tags": [
+        "dog years",
+        "dog age in human years",
+        "dog age calculator",
+        "times 7 myth",
+        "Labrador",
+        "DNA methylation",
+        "epigenetic clock",
+        "pet facts",
+        "dogs",
+        "what if"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "Wang T. et al. 2020, Quantitative Translation of Dog-to-Human Aging by Conserved Remodeling of the DNA Methylome, Cell Systems 11(2):176–185",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7484147/"
+    },
+    {
+      "label": "VCA Animal Hospitals: Estrus Cycles in Dogs（平均約 6 個月大進入青春期）",
+      "url": "https://vcahospitals.com/know-your-pet/estrus-cycles-in-dogs"
+    },
+    {
+      "label": "Kraus C., Pavard S., Promislow D. 2013, The size–life span trade-off decomposed: why large dogs die young, The American Naturalist 181(4):492–505（摘要）",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23535614/"
+    },
+    {
+      "label": "Inside Science (AIP): Large dogs age faster, die younger（Kraus 研究：74 個犬種、5 萬多隻狗）",
+      "url": "https://www.aip.org/inside-science/large-dogs-age-faster-die-younger"
+    }
+  ],
+  "notes": "算式（Wang 等 2020 公式 人的年齡 = 16 × ln(狗的年齡) + 31）：1 歲 → 16×ln1+31 = 31；2 歲 → 16×0.693+31 = 42.09 ≈ 42；7 歲 → 16×1.946+31 = 62.13 ≈ 62；12 歲 → 16×2.485+31 = 70.76 ≈ 71。乘以 7：1 歲 → 7、12 歲 → 84；84 − 70.76 = 13.2，片中寫「+13」。交會點：解 7x = 16 ln x + 31，x ≈ 9.60（7×9.6 = 67.2），片中寫「約 9.6 歲」（x≈0.15 附近另有一個交點，只在幼犬極早期，片中不談）。片尾「1 歲生日：31 根蠟燭」即公式在 1 歲的值。\n研究細節：論文寫「104 dogs, primarily consisting of Labrador retrievers」，年齡 0.1–16 歲（片中年齡條 0–16 歲），其中 9 隻因定序覆蓋不足在換算分析中被排除；人類樣本 320 人、1–103 歲；論文以拉布拉多 12 歲預期壽命對應人類約 70 歲。\n已知弱點：(1) 公式只來自單一品種（拉布拉多），其他品種、尤其體型差很多的狗未必適用；片中用 Kraus 2013 補充「大型犬老得比較快」，但沒有給各品種的換算。(2) 美國獸醫界常見的估法（AKC/AVMA）是第一年≈15 歲、第二年≈24 歲，和 DNA 時鐘的 31/42 不同；片中採 DNA 研究的數字，並標明是拉布拉多。(3)「1 歲的狗多半已經能當爸媽」：VCA 說狗平均約 6 個月大進入青春期，但大型與巨型犬可能 18–24 個月才第一次發情，所以用「多半」而非「都」。(4) Kraus 2013 摘要原文：哺乳動物跨物種「體型大是長壽最好的預測因子之一」，但狗的品種間「體型差近兩個數量級、平均預期壽命差兩倍」，大型犬早死主要因為老化速度快；片中「體型差近百倍」= 兩個數量級，「壽命差到 2 倍」= factor of two。老鼠、大象、吉娃娃、大丹犬的圖只是示意，不代表具體壽命數字。(5) 時鐘轉速只是比喻，不是實際比例。"
+}

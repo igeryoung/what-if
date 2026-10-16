@@ -1,0 +1,24 @@
+{
+ "id": "w1015-ggc9",
+ "topic": "如果用樂高蓋 101（看點：樂高能疊到約 3.5 公里高，是 101 的 7 倍）",
+ "createdAt": 1792073182322,
+ "status": "done",
+ "revisions": [
+  {
+   "t": 1792076408402,
+   "feedback": "請加上縮圖：照 docs/BRIEF.md 的 Thumbnail 段落寫 films/w1015-ggc9/thumb.tsx，再跑 node tools/thumb.mjs w1015-ggc9，看過 out/thumb_small.jpg，確認縮成 feed 大小時每個字都讀得清楚、而且沒有劇透答案。影片本身不用改，也不要重新 render。"
+  }
+ ],
+ "updatedAt": 1792076475122,
+ "startedAt": 1792076408404,
+ "error": null,
+ "claudeSession": "afc5547b-27c5-486a-b895-f24f234db044",
+ "cost": 6.728015500000001,
+ "tokens": 11136290,
+ "turns": 103,
+ "result": "封面已經做好，影片和 mp4 都沒動，也沒有重新 render。\n\n- **檔案**：`films/w1015-ggc9/thumb.tsx`，`node tools/thumb.mjs w1015-ggc9` 產出 `out/thumb_zh.jpg`、`thumb_en.jpg`、`thumb_small.jpg`。\n- **內容**：標題中文是「如果用樂高／蓋 101？」，170 px 分兩行；英文是「What if / Taipei 101 / were LEGO?」，124 px 分三行。下方琥珀色問句是「最底下那塊撐得住嗎？」／「Can the bottom brick hold?」。主圖用開場那棟樂高 101，最底下的紅色積木加上亮框，跟影片第一格對得上。\n- **檢查**：看過 `thumb_small.jpg`，縮成 feed 大小時兩種語言的標題和問句都讀得清楚。文字都在 y 300–850 之間，畫面最下面約 350 px 是空的。\n- **沒有劇透**：封面只問「撐不撐得住」，沒有 3.5 公里、7 棟或「壓不碎」這些答案。\n- **meta.json 沒改**：它的格式沒有縮圖欄位，這次也沒有影響標題或說明。\n- **可再調**：樂高 101 只佔下半部；要放更大就得把問句往上擠，目前先維持文字和圖不重疊。",
+ "finishedAt": 1792076475122,
+ "costs": {
+  "afc5547b-27c5-486a-b895-f24f234db044": 6.728015500000001
+ }
+}

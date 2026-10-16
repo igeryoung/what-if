@@ -1,0 +1,28 @@
+{
+  "zh": {
+    "title": "如果用樂高蓋 101",
+    "summary": "用樂高蓋台北 101，最底下那塊積木會被壓碎嗎？英國開放大學實測一塊 2×2 積木能扛約 432 公斤，要疊到約 3.5 公里、7 棟 101 高才會壓壞；但塔腰歪超過 2 毫米，它早就彎折倒下了。",
+    "youtube": {
+      "title": "用樂高蓋台北 101，最底下那塊會被壓碎嗎？",
+      "description": "用樂高蓋一座台北 101，最底下那塊積木撐得住嗎？\n\n台北 101 高 508 公尺，用 2×2 樂高積木一塊塊疊上去約 5.3 萬塊。2012 年英國開放大學替 BBC 實測：一塊 2×2 積木平均要 4,240 牛頓（約 432 公斤）才會壓壞，等於 37.5 萬塊積木的重量。疊起來約 3.5 公里，約 7 棟 101 高，離玉山頂（3,952 公尺）只差不到一棟 101。但真正的問題不是壓碎：塔腰只要歪超過 2 毫米，整座塔就會先彎折倒下。\n\n資料來源：\n• BBC More or Less／英國開放大學實測（2012）：https://www.bbc.co.uk/news/magazine-20578627\n• 台北 101（維基百科）：https://en.wikipedia.org/wiki/Taipei_101\n• 玉山（維基百科）：https://en.wikipedia.org/wiki/Yushan_(mountain)\n• 樂高積木尺寸（LUGNET）：https://lugnet.com/~330/FAQ/Build/dimensions\n\n配樂：原創（樣本 VSCO 2 CE、VCSL，CC0）\n\n#樂高 #台北101 #科學 #如果 #shorts",
+      "tags": ["樂高", "台北101", "樂高塔", "樂高積木", "積木能疊多高", "物理", "結構力學", "玉山", "冷知識", "科普"]
+    }
+  },
+  "en": {
+    "title": "What if we built Taipei 101 out of LEGO?",
+    "summary": "Build Taipei 101 out of LEGO: would the bottom brick get crushed? An Open University test found a 2×2 brick holds about 432 kg, so it would only give way under a stack about 3.5 km tall, about 7 Taipei 101s. But if the middle leans over 2 mm, the tower buckles long before that.",
+    "youtube": {
+      "title": "If we built Taipei 101 from LEGO, would the bottom brick get crushed?",
+      "description": "Build Taipei 101 out of LEGO. Could the bottom brick take it?\n\nTaipei 101 is 508 m tall, about 53,000 2×2 LEGO bricks stacked one on another. In 2012 the Open University tested this for the BBC: a 2×2 brick takes on average 4,240 newtons (about 432 kg) before it fails, the weight of 375,000 bricks. Stacked, that's about 3.5 km, about 7 Taipei 101s, less than one Taipei 101 short of Yushan's summit (3,952 m). But crushing isn't the real problem: if the middle of the tower leans over 2 mm, the whole tower buckles first.\n\nSources:\n• BBC More or Less / Open University test (2012): https://www.bbc.co.uk/news/magazine-20578627\n• Taipei 101 (Wikipedia): https://en.wikipedia.org/wiki/Taipei_101\n• Yushan (Wikipedia): https://en.wikipedia.org/wiki/Yushan_(mountain)\n• LEGO brick dimensions (LUGNET): https://lugnet.com/~330/FAQ/Build/dimensions\n\nMusic: original score (samples: VSCO 2 CE, VCSL, CC0)\n\n#LEGO #Taipei101 #Physics #WhatIf #shorts",
+      "tags": ["LEGO", "Taipei 101", "LEGO tower", "how tall can a LEGO tower be", "LEGO brick strength", "physics", "structural engineering", "Yushan", "what if", "science"]
+    }
+  },
+  "sources": [
+    {"label": "BBC News Magazine / More or Less: How tall can a Lego tower get? (2012-12-03; Open University, Dr Ian Johnston)", "url": "https://www.bbc.co.uk/news/magazine-20578627"},
+    {"label": "KSL / Deseret News (2012-12-06), same test: 4,240 N, 1.152 g, 375,000 bricks, buckling", "url": "https://www.ksl.com/article/23259909"},
+    {"label": "Wikipedia: Taipei 101 (508 m, 101 floors)", "url": "https://en.wikipedia.org/wiki/Taipei_101"},
+    {"label": "Wikipedia: Yushan (3,952 m)", "url": "https://en.wikipedia.org/wiki/Yushan_(mountain)"},
+    {"label": "LUGNET: LEGO brick dimensions (brick height 9.6 mm nominal, 9.582 mm measured)", "url": "https://lugnet.com/~330/FAQ/Build/dimensions"}
+  ],
+  "notes": "算式：\n1) 101 換成積木：508 m ÷ 9.6 mm（一塊 2×2 積木不含凸點的高度）= 52,917 塊 ≈ 5.3 萬塊（英文版寫 ≈ 53,000）。\n2) 壓力測試（BBC 原文）：三次測試平均最大力 4,240 N，相當於 432 kg（4,240 ÷ 9.81 = 432.2）；積木失效方式是塑性流動，『像一小塊溫熱的卡門貝爾起司』，沒有爆開。\n3) 432 kg ÷ 1.152 g（一塊 2×2 積木的質量，BBC）= 375,000 塊。\n4) 高度：BBC 寫 375,000 塊約 3.5 km（2.17 英里）；以 9.6 mm 計是 375,000 × 9.6 mm = 3,600 m。片中文字用 BBC 的『約 3.5 公里』，畫面上的塔按 3,600 m 畫。\n5) 幾棟 101：3,500 ÷ 508 = 6.9、3,600 ÷ 508 = 7.1 → 『≈ 7 棟』。結尾『它撐得起 7 棟 101』：7 棟 = 7 × 52,917 = 370,417 塊，壓在最底那塊上的是 370,416 × 1.152 g ≈ 426.7 kg < 432 kg，所以成立（餘裕很小）。\n6) 玉山：3,952 − 3,500 = 452 m（以 3,600 m 算是 352 m），都小於一棟 101 的 508 m → 『只差不到一棟 101』。\n7) 轉折（BBC 原文，Ian Johnston）：『在積木壓壞之前，塔會先以挫屈（buckling）的方式失效』；3.5 km 的塔必須直到中點偏離中心不超過 2 mm。片中寫『塔腰歪超過 2 毫米，整座塔就會彎折倒下』。\n已知弱點：實驗是單塊積木、四面牆均勻受力；真的塔受力不會這麼均勻。片中的『積木版 101』只是單柱極限的比喻：只要每一柱都是垂直疊上去，最底層的負重只看上方的高度，與 101 的外形無關（101 下寬上窄只會更輕鬆）；不考慮風、地震、凸點咬合鬆脫。遠景裡的 101 剪影寬度放大 2 倍以便看清楚；玉山的山形是示意，只有 3,952 m 的高度線是準確的。倒塌動畫用固定底端柱子的挫屈形狀 φ(s)=Φ·sin(πs/2L) 示意，不是模擬。"
+}

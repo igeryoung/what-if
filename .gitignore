@@ -1,0 +1,41 @@
+# ── Dependencies & toolchains (reinstall per README) ──
+node_modules/
+/lib/
+/vendor/
+.venv/
+__pycache__/
+*.py[cod]
+
+# ── Film build outputs (regenerate with tools/*); ** also covers films/archive/<id>/ ──
+# out/: zh.mp4, en.mp4, thumbs, contact sheets, stills
+films/**/out/
+# score.py → score.wav via tools/score.sh
+films/**/score.wav
+films/**/score_raw.wav
+# narration.json → voice clips (cached) + mix_<lang>.wav via tools/voice.sh
+films/**/voice/
+films/**/mix_*.wav
+
+# ── Studio run logs: keep session.json + events.jsonl, drop the bulky stuff ──
+films/**/session/raw.log
+films/**/session/poster.jpg
+
+# ── Browser-automation scratch (Playwright MCP screenshots) ──
+.playwright-mcp/
+
+# ── Remotion / TypeScript ──
+/out/
+*.tsbuildinfo
+
+# ── Logs & env ──
+*.log
+npm-debug.log*
+.env
+.env.*
+
+# ── Editor / OS ──
+.DS_Store
+.vscode/
+.idea/
+*.swp
+.claude/settings.local.json

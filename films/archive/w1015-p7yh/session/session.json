@@ -1,0 +1,24 @@
+{
+ "id": "w1015-p7yh",
+ "topic": "如果把你一生講過的話印成書（看點：大約能印 4,000 多本小說）",
+ "createdAt": 1792073182308,
+ "status": "done",
+ "revisions": [
+  {
+   "t": 1792076408374,
+   "feedback": "請加上縮圖：照 docs/BRIEF.md 的 Thumbnail 段落寫 films/w1015-p7yh/thumb.tsx，再跑 node tools/thumb.mjs w1015-p7yh，看過 out/thumb_small.jpg，確認縮成 feed 大小時每個字都讀得清楚、而且沒有劇透答案。影片本身不用改，也不要重新 render。"
+  }
+ ],
+ "updatedAt": 1792076488177,
+ "startedAt": 1792076408377,
+ "error": null,
+ "claudeSession": "c3efa12f-f369-4ab7-909d-7a64faa64418",
+ "cost": 6.201570800000001,
+ "tokens": 10552112,
+ "turns": 105,
+ "result": "中英縮圖都做好了：`films/w1015-p7yh/out/thumb_zh.jpg`、`thumb_en.jpg`，各約 110 KB。影片沒有改，也沒有重新 render，zh.mp4、en.mp4 還是 22:40 那版。\n- **畫面**：用開場那個打字中的對話泡泡當主圖，背景和配色跟影片第一格一樣。\n- **標題**：中文「如果把／一生的話／印成書？」164 px 分三行；英文「What if / every word / you said / got printed?」124 px 分四行。\n- **副標**：中文「會比莎士比亞還多嗎？」、英文「More than Shakespeare?」，用琥珀色。這句只暗示片中段的莎士比亞轉折，不會出現「4,300 多本」這個答案。\n- **檢查**：我看過縮成 feed 大小的 `out/thumb_small.jpg`，兩種語言每個字都讀得清楚。文字都在 y 300–1060 之間，泡泡尾巴最低在約 1545，沒有進到底部 350 px。\n- **meta.json**：只在 notes 加了一行說明縮圖的設計，YouTube 文案沒有改。",
+ "finishedAt": 1792076488177,
+ "costs": {
+  "c3efa12f-f369-4ab7-909d-7a64faa64418": 6.201570800000001
+ }
+}

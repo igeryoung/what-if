@@ -1,0 +1,73 @@
+{
+  "zh": {
+    "title": "如果你的手機掉進馬里亞納海溝",
+    "summary": "手機以最快的姿勢下沉，第 3 秒就超過防水極限，9 分鐘後陽光消失，經過鐵達尼號與聖母峰的高度，1 小時 41 分後才到 10,935 公尺深的海溝底；那裡每平方公分壓著 1.1 噸，而且早就有一個塑膠袋。",
+    "youtube": {
+      "title": "手機掉進馬里亞納海溝，要沉多久才到底？",
+      "description": "如果你的手機掉進馬里亞納海溝，要多久才會沉到底？\n\n就算它側邊朝下、用最快的姿勢下沉（每秒約 1.8 公尺），第 3 秒就超過旗艦手機 6 公尺的防水測試深度；9 分鐘後陽光完全消失，35 分鐘經過鐵達尼號的深度，就算把聖母峰丟進來，山頂離海面還有 2 公里。最快也要 1 小時 41 分，它才抵達 10,935 公尺深的挑戰者深淵——那裡每平方公分壓著約 1.1 噸，光是手機正面就承受約 120 噸。而它不是第一個到的：1998 年，無人潛艇就在海溝底拍到一個塑膠袋。\n\n下沉時間為估算（最快姿勢，每秒約 1.8 公尺）；若手機翻滾下沉會更久。\n\n#馬里亞納海溝 #深海 #水壓 #如果 #shorts",
+      "tags": [
+        "馬里亞納海溝",
+        "挑戰者深淵",
+        "深海",
+        "手機掉進海裡",
+        "水壓",
+        "鐵達尼號",
+        "聖母峰",
+        "海洋塑膠",
+        "如果",
+        "科普"
+      ]
+    }
+  },
+  "en": {
+    "title": "What if you dropped your phone into the Mariana Trench?",
+    "summary": "Sinking at its fastest, the phone passes its water rating in 3 seconds, loses sunlight at 9 minutes, passes the Titanic's depth and Everest's height, and needs at least 1 h 41 min to reach the bottom at 10,935 m, where every square centimetre carries 1.1 tonnes and a plastic bag got there first.",
+    "youtube": {
+      "title": "Drop your phone in the Mariana Trench: how long until it hits bottom?",
+      "description": "What if you dropped your phone into the Mariana Trench? How long until it hits bottom?\n\nEven sinking edge-first at its fastest (about 1.8 m/s), it passes the 6 m that top phones are water-tested to in 3 seconds. Sunlight is gone after 9 minutes, it passes the Titanic's depth at 35 minutes, and if you dropped Mount Everest in, its peak would still be 2 km underwater. At the very least it takes 1 h 41 min to reach Challenger Deep, 10,935 m down, where every square centimetre carries about 1.1 tonnes and the front of the phone alone about 120 tonnes. And it wouldn't be the first: in 1998 a robot sub filmed a plastic bag on the trench floor.\n\nSink time is an estimate (fastest case, about 1.8 m/s); a tumbling phone would take longer.\n\n#MarianaTrench #DeepSea #WaterPressure #WhatIf #shorts",
+      "tags": [
+        "Mariana Trench",
+        "Challenger Deep",
+        "deep sea",
+        "phone dropped in ocean",
+        "water pressure",
+        "Titanic depth",
+        "Mount Everest",
+        "ocean plastic",
+        "what if",
+        "science shorts"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "挑戰者深淵深度 10,935 ± 6 m（Greenaway 等 2021，維基百科整理）/ Challenger Deep depth (Greenaway et al. 2021, via Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Challenger_Deep"
+    },
+    {
+      "label": "NOAA：海洋光照分層 / NOAA: how far light travels in the ocean",
+      "url": "https://oceanservice.noaa.gov/facts/light_travel.html"
+    },
+    {
+      "label": "Chiba 等 2018，Marine Policy：深海塑膠垃圾 / Chiba et al. 2018, Marine Policy: deep-sea plastic debris",
+      "url": "https://doi.org/10.1016/j.marpol.2018.03.022"
+    },
+    {
+      "label": "Apple：iPhone 17 規格（IP68、尺寸、重量）/ Apple: iPhone 17 specs",
+      "url": "https://www.apple.com/za/iphone-17/specs/"
+    },
+    {
+      "label": "NOAA Ocean Exploration：鐵達尼號深度 3,800 m / NOAA: Titanic depth",
+      "url": "https://oceanexplorer.noaa.gov/multimedia/daily-image/media/20210415.html"
+    },
+    {
+      "label": "AP（2020）：聖母峰 8,848.86 m / AP (2020): Everest is 8,848.86 m",
+      "url": "https://www.washingtontimes.com/news/2020/dec/8/china-nepal-say-everest-a-bit-higher-than-past-mea/"
+    },
+    {
+      "label": "小型車重量範例：VW Polo 歷代 770–1,585 kg / Small-car weight example: VW Polo",
+      "url": "https://vehiclescore.co.uk/car-weight/volkswagen/polo"
+    }
+  ],
+  "notes": "【下沉速度（估算，片中所有時間都由此換算）】\niPhone 17：149.6 × 71.5 × 7.95 mm、177 g（Apple 規格）。盒體 85.0 cm³，扣掉圓角約 83 cm³ → 密度約 2.1 g/cm³。\n海水 1.03 g/cm³ → 淨重 ≈ 177 − 83 × 1.03 ≈ 92 g → 0.90 N。\n最快姿勢＝短邊朝下：迎流面積 71.5 × 7.95 mm = 5.68 cm²，形狀阻力係數取 0.8；另加表面摩擦（層流 Cf ≈ 0.003，濕面積 ≈ 225 cm²）。\n0.5 × 1030 × v² × (0.8 × 5.68e-4 + 0.003 × 0.0225) = 0.90 → v ≈ 1.8 m/s（Cd 取 0.7–1.0 時為 1.7–1.95 m/s）。\n深處海水被壓縮（約 1.07 g/cm³），淨重與阻力的變化會再慢約 3–4%，未計入。若手機平躺、翻滾下沉，粗估每秒只有 0.4–0.8 公尺，要 4–8 小時；所以片中與說明一律寫「最快」。\n\n【時間】depth ÷ 1.8 m/s：\n6 m → 3.3 s（「第 3 秒」）；1,000 m → 556 s = 9 分 16 秒（「9 分鐘」）；3,800 m → 2,111 s = 35 分 11 秒（「35 分鐘」）；\n8,849 m → 4,916 s = 1 時 21 分 56 秒（HUD 顯示 1:21:56）；10,935 m → 6,075 s = 1 時 41 分 15 秒（「1 小時 41 分」）。\n重看次數：6,075 s ÷ 67 s（片長）≈ 90.7 →「90 多遍」（片長不能超過 67.5 s，否則不到 90 遍）。\n\n【比較】\n鐵達尼號：3,800 ÷ 10,935 = 35% →「才走了三分之一」（約三分之一）。\n聖母峰：10,935 − 8,849 = 2,086 m →「山頂離海面還有 2 公里」。\n\n【壓力】\nKAIKO 1996 年在 10,897 m 實測 1,113 bar（維基百科 Challenger Deep；2019 年 Five Deeps 在 10,928 m 測得 1,126.79 bar）。\n1,113 bar = 111.3 MPa = 11,130 N/cm² ÷ 9.81 = 1,135 kgf/cm² ≈ 1.1 噸／平方公分。小型車約 0.8–1.3 噸（例：VW Polo 歷代 770–1,585 kg）→「≈ 一輛小汽車的重量」。\n手機正面 149.6 × 71.5 mm = 107 cm²；107 × 1.135 t = 121 t →「120 噸」；每平方公分約一輛車 × 107 →「100 多輛車」。\n\n【其他事實】\n深度 10,935 ± 6 m：Greenaway 等 2021（維基百科引用）。\n光：NOAA，200 m 以下為 twilight（dysphotic）、1,000 m 以下為 aphotic，沒有陽光，唯一的光來自生物（NOAA Ocean Exploration）。\n防水：iPhone 17 為 IP68（水深 6 m、30 分鐘）；其他主流旗艦多為 1.5 m，故寫「旗艦手機最深只測到 6 公尺」。\n塑膠袋：Chiba 等 2018（Marine Policy 96）資料庫最深紀錄為 10,898 m 的塑膠袋，ROV KAIKO 於 1998-05-20 拍攝（Fig. 2，11°21′N 142°12′E）。2019 年後有潛航者在更深處看到垃圾的報導，故片中只寫「JAMSTEC 深海垃圾資料庫裡最深的一筆」。\n\n【已知弱點】\n1. 下沉時間是理想化估算（短邊朝下的終端速度），真實手機多半會翻滾、更慢；片中以「最快」標示。\n2. 鐵達尼號在北大西洋，片中只當深度對照，畫面以虛線標示。\n3. 手機防水只測到 6 m，更深處很可能進水斷電；片中螢幕一路亮著是為了讓觀眾看得見手機，文字沒有宣稱它還亮著。\n4. 塑膠袋的位置在馬里亞納海溝底，但不在挑戰者深淵正下方（相距約數十公里），片中寫「海溝底」。\n5. 水壓作用在所有方向，「車疊在上面」只是把正面受力換算成重量的比喻。"
+}

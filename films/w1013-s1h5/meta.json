@@ -1,0 +1,33 @@
+{
+  "zh": {
+    "title": "如果你一輩子不剪頭髮",
+    "summary": "頭髮每月約長 1 公分，照算 80 年會有 9.6 公尺、約三層樓高；但每根頭髮只長 3–5 年就脫落，所以多數人最長約 60–90 公分，世界紀錄是 5.627 公尺。若把全頭約 10 萬根加總，一輩子長出約 960 公里，約台灣全長的 2.4 倍。",
+    "youtube": {
+      "title": "一輩子不剪頭髮，會長到多長？",
+      "description": "如果一輩子都不剪頭髮，會長到多長？\n\n頭髮每月約長 1 公分，照算 80 年會有 9.6 公尺；但每根頭髮只長 3–5 年就會脫落，所以多數人最長約 60–90 公分，世界紀錄是謝秋萍的 5.627 公尺。換個算法：全頭約 10 萬根加總，一輩子長出約 960 公里，約台灣全長的 2.4 倍。\n\n資料來源：\n• Wikipedia：Hair growth：https://en.wikipedia.org/wiki/Hair_growth\n• 金氏世界紀錄：Longest hair (female) ever：https://www.guinnessworldrecords.com/world-records/longest-hair-female\n• Wikipedia：Geography of Taiwan：https://en.wikipedia.org/wiki/Geography_of_Taiwan\n配樂：原創（樣本 VSCO 2 CE、VCSL，CC0）\n\n#頭髮 #冷知識 #科普 #如果 #shorts",
+      "tags": [
+        "頭髮",
+        "冷知識",
+        "科普",
+        "如果系列",
+        "金氏世界紀錄",
+        "人體"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "Wikipedia — Hair growth（約 1 cm/月；生長期 3–5 年；多數人最長約 60–90 cm；黑髮約 10 萬根）",
+      "url": "https://en.wikipedia.org/wiki/Hair_growth"
+    },
+    {
+      "label": "Guinness World Records — Longest hair (female) ever: 謝秋萍 5.627 m，2004-05-08 量測，1973 年 13 歲起留髮",
+      "url": "https://www.guinnessworldrecords.com/world-records/longest-hair-female"
+    },
+    {
+      "label": "Wikipedia — Geography of Taiwan（台灣本島長 394 km）",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_Taiwan"
+    }
+  ],
+  "notes": "計算：1 cm/月 × 12 = 12 cm/年；12 cm × 80 年 = 960 cm = 9.6 m；以每層樓約 3 m 計 ≈ 三層樓（示意）。60–90 cm 上限取自 Wikipedia；1 cm/月 × 12 × 5 年 = 60 cm 與之相符。紀錄：1973→2004 = 31 年。加總：100,000 根 × 1 cm/月 = 100,000 cm = 1 km/月；× 960 個月 = 960 km；960 ÷ 394 ≈ 2.4；1 km ÷ 30 天 ≈ 33 m/天。弱點：加總是粗估，假設 10 萬根同時都在生長（實際約八到九成在生長期），根數也因髮色、個人而異（9–15 萬），所以 960 km 與 33 m/天可能高估約一成。生長期長度在不同資料中從 2 到 7 年不等，片中用 Wikipedia 的 3–5 年。毛囊與脫落的動畫是示意圖，不按比例。數字為平均值。配樂為原創（lib sampler）。"
+}

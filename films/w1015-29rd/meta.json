@@ -1,0 +1,72 @@
+{
+  "zh": {
+    "title": "如果你家的貓跟老虎一樣大",
+    "summary": "把家貓放大到老虎的尺寸：220 公斤坐你腿上、每天 5–6 公斤肉、3 公尺長的貓砂盆，還照樣把杯子推下桌。反轉：老虎和家貓的基因體本來就 95.6% 相似。",
+    "youtube": {
+      "title": "如果你家的貓跟老虎一樣大？杯子還保得住嗎",
+      "description": "如果你家的貓跟老虎一樣大，牠還是會把你的杯子推下桌嗎？\n牠還是想坐你腿上，只是現在有 220 公斤，約 50 隻家貓的重量。清晨 5 點討早餐，一天要 5–6 公斤肉，約 65 包貓餐包。貓砂盆照獸醫建議要約 3 公尺長，比乒乓球桌還長。反轉：老虎和家貓的基因體本來就有 95.6% 相似，比你和大猩猩（94.8%）還接近。\n\n#貓 #老虎 #如果 #科普 #shorts",
+      "tags": [
+        "如果",
+        "貓",
+        "老虎",
+        "巨大的貓",
+        "貓推杯子",
+        "貓和老虎DNA",
+        "動物冷知識",
+        "科普",
+        "假如系列",
+        "貓咪"
+      ]
+    }
+  },
+  "en": {
+    "title": "What if your cat were as big as a tiger",
+    "summary": "A house cat scaled up to tiger size: 220 kg on your lap, 5–6 kg of meat a day, a 3 m litter box, and it still pushes your mug off the table. The twist: tiger and house-cat genomes are already 95.6% similar.",
+    "youtube": {
+      "title": "What if your cat were as big as a tiger? Is your mug safe?",
+      "description": "If your cat were as big as a tiger, would it still push your mug off the table?\nIt still wants your lap, except now it weighs 220 kg, about as much as 50 house cats. At 5 a.m. it wants breakfast: 5–6 kg of meat a day, about 65 cat-food pouches. By the vets' rule, its litter box would be about 3 m long, longer than a ping-pong table. The twist: tiger and house-cat genomes are already 95.6% similar, closer than you and a gorilla (94.8%).\n\n#cats #tiger #whatif #science #shorts",
+      "tags": [
+        "what if",
+        "giant cat",
+        "cat as big as a tiger",
+        "cat pushing things off table",
+        "cat tiger DNA",
+        "tiger facts",
+        "cat facts",
+        "science shorts",
+        "animal facts"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "Cho et al. 2013, The tiger genome and comparative analysis with lion and snow leopard genomes, Nature Communications 4:2433 (95.6% tiger vs. domestic cat; 94.8% human vs. gorilla)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3778509/"
+    },
+    {
+      "label": "Wikipedia: Bengal tiger (adult males 200–260 kg; head-and-body 183–211 cm; Jhala 2017, Tiger body growth booklet 2021)",
+      "url": "https://en.wikipedia.org/wiki/Bengal_tiger"
+    },
+    {
+      "label": "San Diego Zoo Wildlife Alliance Library, Tiger fact sheet: Diet (about 5–6 kg of meat a day on average; Sunquist 1981)",
+      "url": "https://ielc.libguides.com/sdzg/factsheets/tiger/diet"
+    },
+    {
+      "label": "PetMD: Average cat weight (most cats about 10 lb ≈ 4.5 kg)",
+      "url": "https://www.petmd.com/cat/grooming/whats-average-healthy-cat-weight"
+    },
+    {
+      "label": "AAFP & ISFM 2014 house-soiling brochure (litter box 1.5 × the cat's length, nose to base of tail)",
+      "url": "https://catvets.com/wp-content/uploads/2024/01/HouseSoiling-B&W.pdf"
+    },
+    {
+      "label": "Wikipedia: Table tennis (table 2.74 m × 1.525 m)",
+      "url": "https://en.wikipedia.org/wiki/Table_tennis"
+    },
+    {
+      "label": "Panthera: Which big cats purr? (background: roaring cats in genus Panthera; not shown on screen)",
+      "url": "https://www.panthera.org/blog-post/which-big-cats-purr"
+    }
+  ],
+  "notes": "算術：\n1) 220 公斤：成年公孟加拉虎 200–260 公斤（Wikipedia/Jhala 2017），取區間內的 220。家貓約 4.5 公斤（PetMD：多數約 10 磅）。220 ÷ 4.5 = 48.9 ≈ 50 隻家貓。\n2) 食量：San Diego Zoo 資料，老虎平均每天約需 5–6 公斤肉。一包貓餐包 85 g（3 oz，國際常見規格）：5000 ÷ 85 = 58.8、6000 ÷ 85 = 70.6，取中間 5500 ÷ 85 = 64.7 ≈ 65 包（畫面上畫 65 包）。這是比重量，不是比熱量。\n3) 貓砂盆：AAFP/ISFM 建議盆長 = 貓從鼻尖到尾根的長度 × 1.5。公孟加拉虎頭身長 183–211 公分 → 1.5 × 1.83 = 2.75 m、1.5 × 2.11 = 3.17 m，取「約 3 公尺」。乒乓球桌長 2.74 m。畫面比例尺 300 px/m：盆 900 px（3.0 m）、球桌 822 px（2.74 m）。\n4) 95.6%：Cho 等 2013 的『基因體序列相似度』（老虎 vs 家貓），同篇論文給人類 vs 大猩猩 94.8%。\n已知弱點：\n- 95.6% 是序列相似度，不是『共有 95.6% 的 DNA』這種日常說法；畫面用「基因體相似度」。不同研究方法會得到不同百分比，94.8% 與 95.6% 只在同一篇論文內可比。\n- 「放大成老虎大小的家貓」是假設，體重、食量、身長都直接套用真實老虎的數字。\n- 貓砂盆在孟加拉虎身長的下限（1.83 m）時只比球桌長 0.5 公分；取中段約 3 m 時長約 26 公分。\n- 「清晨 5 點討早餐」「推掉筆電、電視、整張桌子」「本來就是迷你老虎」是情境與誇飾，不是數據。\n- 家貓體重差異大（約 3.6–5.4 公斤），50 隻是約數。"
+}
